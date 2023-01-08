@@ -1,0 +1,40 @@
+*,
+::after,
+::before {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    list-style: inside;
+    box-sizing: border-box;
+}
+img,
+video {
+    width: 100%;
+    vertical-align: middle;
+}
+
+/* https://codepen.io/jh3y/pen/OJRLMxE */
+:root {
+    /* --primary-color: red; */
+    --transition-duration: 15s;
+    --transition-timing-function: linear;
+
+    --hue: 0;
+    --saturation: 80%;
+    --luminosity: 50%;
+    --color: hsl(var(--hue), var(--saturation), var(--luminosity));
+}
+body {
+    color: var(--color);
+    transition: color var(--transition-duration)
+            var(--transition-timing-function),
+        background-color var(--transition-duration)
+            var(--transition-timing-function);
+    background-color: var(--color);
+
+    backdrop-filter: brightness(0.1) saturate(1.5);
+    min-height: 100vh;
+}
