@@ -26,6 +26,13 @@ video {
     --saturation: 80%;
     --luminosity: 50%;
     --color: hsl(var(--hue), var(--saturation), var(--luminosity));
+
+    --spacing: 20px;
+    --negative-spacing: -20px;
+    --half-spacing: 10px;
+
+    --filter: brightness(0.1) saturate(1.5);
+    --hover-filter: brightness(0.6);
 }
 body {
     color: var(--color);
@@ -35,6 +42,220 @@ body {
             var(--transition-timing-function);
     background-color: var(--color);
 
-    backdrop-filter: brightness(0.1) saturate(1.5);
+    backdrop-filter: var(--filter);
     min-height: 100vh;
+
+    font-family: 'Unbounded', cursive;
+    font-weight: 200;
+
+    padding: var(--spacing);
+}
+
+header,
+main,
+.scratch,
+.screenshots {
+    border: 1px solid var(--color);
+    transition: border-color var(--transition-duration)
+        var(--transition-timing-function);
+    border-top: none;
+    padding: var(--spacing);
+}
+header {
+    border-top: 1px solid var(--color);
+}
+.scratch__game-container {
+    border: 1px solid var(--color);
+    transition: border-color var(--transition-duration)
+        var(--transition-timing-function);
+    overflow: hidden;
+}
+
+header p {
+    margin-top: var(--half-spacing);
+}
+header h1,
+header p {
+    max-width: 1000px;
+}
+.header__top {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    align-items: start;
+    gap: var(--half-spacing);
+}
+.header__top > a {
+    color: var(--color);
+    transition: color var(--transition-duration)
+        var(--transition-timing-function);
+    font-weight: 500;
+    font-size: 21px;
+}
+.header__top > a > span {
+    text-decoration: underline;
+    font-size: 0.95em;
+}
+.header__top > a,
+.header__top > a > span {
+    text-decoration-thickness: 2px;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 36px;
+    margin-top: var(--spacing);
+}
+
+header h2 {
+    font-size: 32px;
+    line-height: 80%;
+}
+h2 > strong {
+    font-weight: 900;
+}
+
+h3,
+h2 {
+    font-size: 21px;
+    line-height: auto;
+}
+h2:not(header h2) {
+    margin-bottom: var(--half-spacing);
+    font-weight: 500;
+}
+
+sub,
+sup {
+    /* Specified in % so that the sup/sup is the
+       right size relative to the surrounding text */
+    font-size: 70%;
+
+    /* Zero out the line-height so that it doesn't
+       interfere with the positioning that follows */
+    line-height: 0;
+
+    /* Where the magic happens: makes all browsers position
+       the sup/sup properly, relative to the surrounding text */
+    position: relative;
+
+    /* Note that if you're using Eric Meyer's reset.css, this
+       is already set and you can remove this rule */
+    vertical-align: baseline;
+}
+
+sup {
+    /* Move the superscripted text up */
+    top: -0.5em;
+}
+
+sub {
+    /* Move the subscripted text down, but only
+       half as far down as the superscript moved up */
+    bottom: -0.25em;
+}
+
+iframe {
+    transform-origin: top left;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: var(--spacing);
+}
+.gallery iframe {
+    aspect-ratio: 4 / 3;
+}
+.link-to-game {
+    background-color: var(--color);
+    transition: background-color var(--transition-duration)
+            var(--transition-timing-function),
+        color var(--transition-duration) var(--transition-timing-function);
+    padding: var(--spacing);
+    display: block;
+    text-decoration: none;
+    margin-top: var(--half-spacing);
+    font-weight: 500;
+}
+.link-to-game:hover > span {
+    /* background-color: var(--color); */
+    /* backdrop-filter: none; */
+    /* backdrop-filter: none; */
+    filter: none;
+    /* filter: brightness(1.5); */
+    color: #ccc;
+}
+.link-to-game > span {
+    color: var(--color);
+    display: block;
+    text-align: center;
+    filter: var(--filter);
+    transition: filter 3s cubic-bezier(0.075, 0.82, 0.165, 1),
+        color 3s cubic-bezier(0.075, 0.82, 0.165, 1);
+    margin: var(--negative-spacing);
+    padding: var(--spacing);
+}
+
+.scratch {
+    display: grid;
+    grid-template-columns: 680px 1fr;
+    gap: var(--spacing);
+}
+
+.screenshots h2 {
+    grid-area: 1 / 1 / 2 / -1;
+}
+
+@media (max-width: 1000px) {
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .scratch {
+        grid-template-columns: 500px 1fr;
+    }
+}
+@media (max-width: 850px) {
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .scratch {
+        grid-template-columns: 400px 1fr;
+    }
+    .header__top > a {
+        transform-origin: top right;
+        transform: scale(0.7);
+    }
+}
+/* @media (max-width: 671px) {
+    .header__top {
+        grid-template-columns: 1fr;
+    }
+    .header__top > a {
+        transform: none;
+    }
+} */
+@media (max-width: 675px) {
+    header h2 {
+        font-size: 7.9vw;
+    }
+    header h3 {
+        font-size: 5.2vw;
+    }
+    .gallery {
+        grid-template-columns: 1fr;
+    }
+    .scratch {
+        grid-template-columns: 1fr;
+    }
+    .scratch__game-container {
+        max-width: 100%;
+    }
+    .header__top {
+        grid-template-columns: 1fr;
+    }
+    .header__top > a {
+        /* transform: none; */
+        order: -1;
+        transform-origin: top left;
+    }
 }

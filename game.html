@@ -4,25 +4,63 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Document</title>
+
+        <link
+            rel="shortcut icon"
+            href="./assets/img/cropped-android-chrome-512x512-1-180x180.png"
+            type="image/x-icon"
+        />
+
+        <!-- <link
+            rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0"
+        /> -->
+
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Unbounded:wght@200;500;900&display=swap&family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0"
+            rel="stylesheet"
+        />
+
         <script src="./assets/js/game.js" defer type="module"></script>
         <script src="./assets/js/change-color.js"></script>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
-        <h2>MJM / JPO 2023</h2>
-        <h3>Design graphique 3<sup>e</sup> année</h3>
-        <a href="index.html">Retour à la galerie</a>
-        <h1></h1>
-        <p class="description"></p>
-        <iframe
-            src="..."
-            allowtransparency="true"
-            width="485"
-            height="402"
-            frameborder="0"
-            scrolling="no"
-            allowfullscreen
-            class="scratch-game"
-        ></iframe>
+        <header>
+            <div class="header__top">
+                <div>
+                    <h2><strong>MJM</strong> / JPO 2023</h2>
+                    <h3>Design graphique 3<sup>e</sup> année</h3>
+                </div>
+                <a href="./index.html">
+                    <span class="material-symbols-outlined">&#xe5c3;</span>
+                    Retour à la galerie
+                </a>
+            </div>
+            <h1></h1>
+        </header>
+
+        <div class="scratch">
+            <div class="scratch__game-container">
+                <iframe
+                    allowtransparency="true"
+                    width="485"
+                    height="402"
+                    frameborder="0"
+                    scrolling="no"
+                    allowfullscreen
+                    class="scratch-game"
+                ></iframe>
+            </div>
+            <div>
+                <h2>Commandes</h2>
+                <ul class="controls"></ul>
+            </div>
+        </div>
+        <div class="gallery screenshots">
+            <h2>Captures d’écran</h2>
+        </div>
     </body>
 </html>
