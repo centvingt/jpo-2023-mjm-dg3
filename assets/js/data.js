@@ -1,4 +1,4 @@
-import { splitString, getIdFromYouTubeLink } from './util.js'
+import { splitString, getIdFromYouTubeLink } from './utils.js'
 
 const rawGames = [
   {
@@ -288,40 +288,44 @@ const rawGames = [
   },
 ]
 
-const games = rawGames
-  .map((game) => {
-    if (
-      !game.title ||
-      game.title === '' ||
-      !game.scratch ||
-      game.scratch === '' ||
-      !game.description ||
-      game.description === '' ||
-      !game.controls ||
-      game.controls === '' ||
-      !game.youtube ||
-      game.youtube === ''
-    )
-      return
+/** @type {[{title: string, scratch: string, figma: string, description: [string], controls: [string], youtube: string, screenshots: [string?]}]} */ const games =
+  rawGames
+    .map((game) => {
+      if (
+        !game.title ||
+        game.title === '' ||
+        !game.scratch ||
+        game.scratch === '' ||
+        !game.description ||
+        game.description === '' ||
+        !game.controls ||
+        game.controls === '' ||
+        !game.youtube ||
+        game.youtube === ''
+      )
+        return
 
-    const { title, figma } = game
-    const scratch = game.scratch.toString()
-    const description = splitString(game.description)
-    const controls = splitString(game.controls)
-    const youtube = getIdFromYouTubeLink(game.youtube)
-    const screenshots = [youtube, ...splitString(game.screenshots)]
+      const { title, figma } = game
+      const scratch = game.scratch.toString()
+      const description = splitString(game.description)
+      const controls = splitString(game.controls)
+      const youtube = getIdFromYouTubeLink(game.youtube)
+      const screenshots = [youtube, ...splitString(game.screenshots)].filter(
+        (s) => s !== ''
+      )
 
-    return {
-      title,
-      figma,
-      scratch,
-      description,
-      controls,
-      youtube,
-      screenshots,
-    }
-  })
-  .sort(() => Math.random() - 0.5)
+      return {
+        title,
+        figma,
+        scratch,
+        description,
+        controls,
+        youtube,
+        screenshots,
+      }
+    })
+    .filter((game) => game)
+    .sort(() => Math.random() - 0.5)
 
 console.log('assets/js/data.js > games >', games)
 
