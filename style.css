@@ -75,6 +75,41 @@ header {
     transition: border-color var(--transition-duration)
         var(--transition-timing-function);
     overflow: hidden;
+    display: grid;
+    align-items: stretch;
+    justify-items: stretch;
+}
+.scratch__game-container > * {
+    grid-area: 1 / 1 / 2 / 2;
+}
+.scratch__mobile-warning {
+    transform-origin: top left;
+    z-index: 1;
+    backdrop-filter: blur(10px);
+    background-color: hsla(
+        var(--hue),
+        var(--saturation),
+        var(--luminosity),
+        0.6
+    );
+    display: none;
+    align-items: center;
+    justify-items: center;
+    transition: background-color var(--transition-duration)
+            var(--transition-timing-function),
+        color var(--transition-duration) var(--transition-timing-function);
+}
+.scratch__mobile-warning > p {
+    text-align: center;
+    display: grid;
+    width: 250px;
+    gap: var(--half-spacing);
+    font-weight: 500;
+    filter: var(--filter);
+    font-size: 1.3em;
+}
+.scratch__mobile-warning > p > span {
+    font-size: 2em;
 }
 
 header p {

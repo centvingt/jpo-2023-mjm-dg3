@@ -9,6 +9,9 @@ const scratchContainer = document.querySelector('.scratch')
 const gameContainer = document.querySelector('.scratch__game-container')
 const controlsUl = document.querySelector('.controls')
 const screenshotsContainer = document.querySelector('.screenshots')
+/** @type {HTMLElement} */ const scratchMobileWarning = document.querySelector(
+  '.scratch__mobile-warning'
+)
 
 const id = getIdFromUrlParams()
 const game = games.find((g) => g.scratchId === id) ?? {
@@ -59,6 +62,7 @@ const resize = () => {
   if (scale === 1) scale = (scratchContainer.clientWidth - 40) / 485
 
   gameIframe.style.setProperty('transform', `scale(${scale})`)
+  scratchMobileWarning.style.setProperty('transform', `scale(${scale})`)
 
   gameContainer.style.setProperty(
     'height',
@@ -69,10 +73,9 @@ const resize = () => {
 resize()
 window.addEventListener('resize', resize)
 
-// if (
-//   /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
-//     navigator.userAgent
-//   )
-// )
-//   alert('MOBILE!')
-// else alert('DESKTOP!')
+if (
+  /Android|webOS|iPhone|iPad|iPod|BlackBerry|BB|PlayBook|IEMobile|Windows Phone|Kindle|Silk|Opera Mini/i.test(
+    navigator.userAgent
+  )
+)
+  scratchMobileWarning.style.display = 'grid'
