@@ -1,8 +1,5 @@
 import { games } from './data.js'
-
-const queryString = window.location.search
-const urlParams = new URLSearchParams(queryString)
-const id = urlParams.get('id')
+import { getIdFromUrlParams } from './utils.js'
 
 const header = document.querySelector('header')
 const titleElement = document.querySelector('h1')
@@ -13,22 +10,23 @@ const gameContainer = document.querySelector('.scratch__game-container')
 const controlsUl = document.querySelector('.controls')
 const screenshotsContainer = document.querySelector('.screenshots')
 
-const game = games.find((g) => g.scratch === id) ?? {
+const id = getIdFromUrlParams()
+const game = games.find((g) => g.scratchId === id) ?? {
   title: '',
-  description: [],
-  controls: [],
-  screenshots: [],
-  figma: '',
-  youtube: '',
-  scratch: '',
+  descriptionParagraphs: [''],
+  controls: [''],
+  screenshots: [''],
+  figmaId: '',
+  youtubeId: '',
+  scratchId: '',
 }
 
-const { title, description, controls, screenshots } = game
+const { title, descriptionParagraphs, controls, screenshots } = game
 
 titleElement.innerText = title
 gameIframe.src = `https://scratch.mit.edu/projects/${id}/embed`
 
-description.forEach((p) => {
+descriptionParagraphs.forEach((p) => {
   header.innerHTML += `<p>${p}</p>`
 })
 
