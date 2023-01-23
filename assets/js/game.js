@@ -13,6 +13,7 @@ const screenshotsContainer = document.querySelector('.screenshots')
   '.scratch__mobile-warning'
 )
 const authorsContainer = document.querySelector('h4')
+const conceptionUl = document.querySelector('.conception')
 
 const id = getIdFromUrlParams()
 const game = games.find((g) => g.scratchId === id) ?? {
@@ -25,7 +26,15 @@ const game = games.find((g) => g.scratchId === id) ?? {
   scratchId: '',
 }
 
-const { title, descriptionParagraphs, controls, screenshots, authors } = game
+const {
+  title,
+  descriptionParagraphs,
+  controls,
+  screenshots,
+  authors,
+  figmaId,
+  pdfLink,
+} = game
 
 titleElement.innerText = title
 
@@ -38,6 +47,11 @@ descriptionParagraphs.forEach((p) => {
 })
 
 controls.forEach((control) => (controlsUl.innerHTML += `<li>${control}</li>`))
+
+conceptionUl.innerHTML = `
+<li><a href="${pdfLink}" target="_blank">Télécharger le PDF du dossier de coneption</a></li>
+<li><a href="https://www.figma.com/file/${figmaId}" target="_blank">Consulter les maquettes Figma</a></li>
+`
 
 const youtubeScreenshots = screenshots.filter((s) => !s.startsWith('https://'))
 const imagesScreenshots = screenshots.filter((s) => s.startsWith('https://'))

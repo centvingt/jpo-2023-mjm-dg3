@@ -6,33 +6,44 @@ const rawGames = [
     TITRE: '',
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': 'vdEKzfEWTjPe5DTb3jRj7u',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      'vous êtes plongée dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
+    'COMMANDES DU CLAVIER':
+      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Alexia ABAKAR\nRaphaël COSIALLS',
+    PDF: '',
   },
   {
     BINOME: 'BAZIRE_LEFRANC',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'FISH & PILLS',
+    'ID SCRATCH (NEUF CHIFFRES)': 792348480,
     'ID FIGMA': 'xlNXtG9pXd9JdO8gYGmzRa',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous\ntrouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez\nbeaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin\nqu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur\ndonnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour\ngagner un maximum de point et passer au niveau supérieur.',
+    'COMMANDES DU CLAVIER':
+      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/GMBevmdsqco',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/wMp82NXY/loose.jpg\nhttps://i.postimg.cc/XY7Wt9TV/16.jpg\nhttps://i.postimg.cc/g2SppnW3/d-but.jpg\nhttps://i.postimg.cc/FzVtBKpd/GAMEOVER.jpg\nhttps://i.postimg.cc/JnJCjxBQ/menu.jpg\nhttps://i.postimg.cc/DfrKZChv/nextlever.jpg\nhttps://i.postimg.cc/9fsj4KzM/playagain.jpg',
     NOMS: 'Madeleine BAZIRE\nSuzanne LEFRANC',
+    PDF: 'https://drive.google.com/file/d/1Sr4M8bVXXGh72IW1TRGJfJ2rvfxk7Opz/view?usp=share_link',
   },
   {
     BINOME: 'BEKKA_LALANNE',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'Ink',
+    'ID SCRATCH (NEUF CHIFFRES)': 788935190,
     'ID FIGMA': '1u6DhD2KlZ2KfX3ri73pTw',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Une page blanche. C’est le monde dont vit Ink, le personnage principal.\nSon objectif ? Encrer tous ceux qui se trouvent sur son passage !\nArmé de son stylo, il est déterminé à remplir la feuille de tâche d’encre.\nAlors aidez-le à accomplir son objectif pour remplir la page !\nÀ vos stylos !\nLe concept du jeu est de toucher les ennemis avec les projectils de notre stylo.\nMais il faudra faire attention à ne pas se faire toucher ou à user le réservoir\ntrop rapidement. Plus on touchera d’ennemis, plus le score sera élevé.\nSi on obtient un score assez élevé, on pourra passer au niveau suivant.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/zKzh1GsY0ns',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/6q6gBmwc/Jeu-Ink-Sc-ne-1-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/Nj2VGTh3/Jeu-Ink-Sc-ne-2-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KYXW1zxR/Jeu-Ink-Sc-ne-3-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KvHwyfW7/Jeu-Ink-Sc-ne-4-Bekka-et-Lalanne-jeu-de-tir.jpg',
     NOMS: 'Inès BEKKA\nIsis LALANNE',
+    PDF: '',
   },
   {
     BINOME: 'BENONI_MORLAT',
@@ -44,6 +55,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Dylan BENONI\nSébastien MORLAT',
+    PDF: '',
   },
   {
     BINOME: 'BONIN_CALOM',
@@ -55,6 +67,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Marion BONIN\nAgathe CALOM',
+    PDF: '',
   },
   {
     BINOME: 'BORDAS_HAMIDI',
@@ -66,6 +79,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Romain BORDAS\nHoussine HAMIDI',
+    PDF: '',
   },
   {
     BINOME: 'BRUNET_DONINEAUX',
@@ -73,32 +87,52 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': '6GzOGjbeiwoCnI1PAed25o',
     DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Charles BRUNET\nThomas DONINEAUX',
+    PDF: '',
   },
   {
     BINOME: 'CHAN_LUU_NEREE',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: "PLYM'S QUEST",
+    'ID SCRATCH (NEUF CHIFFRES)': 775892033,
     'ID FIGMA': 'xIRHRk0wLGBaA6XFNBnkLV',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      'La perle de vie répand le bien être, la paix et la prospérité des habitants de l’océan. Cette perle qui regorge\nd’une énergie surpuissante attise la curiosité de beaucoup de malfaiteurs. Un groupe de méduses sournoises\nréussit à dérober la précieuse perle de vie. Suite à la disparition de la perle les êtres de l’océan tombèrent dans la\npénombre. C’est ainsi qu’arrive Plym gardienne de l’océan qui aura pour but de récuperer la perle de vie.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis (méduses).",
     'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://postimg.cc/gallery/gPZC1R2',
     NOMS: 'Miranda CHAN SIO MOUI\nNancy LUU\nAurélie NÉRÉE',
+    PDF: 'https://drive.google.com/file/d/1T1Xz5ezw-ufiARVPCi4QYgV2cQWYYcm4/view?usp=share_link',
   },
   {
     BINOME: 'CHEBBAH_CHRETIEN',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'RICE ATTACK',
+    'ID SCRATCH (NEUF CHIFFRES)': 792348268,
     'ID FIGMA': 'kGI1AOhfH4XABgrOC7WjVb',
-    DESCRIPTION: '',
+    DESCRIPTION:
+      'L’objectif du jeu est de survivre le plus longtemps possible, tout en attaquant les ennemis qui arrivent de face (chauves-sousrice) avec les shuriken. Plus vous tué d’ennemies plus vous marquer des points et votre score augmente. Plus le joueur passe de niveaux plus le jeu devient',
     'COMMANDES DU CLAVIER': '',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
+    NOMS: '',
+    PDF: '',
+  },
+  {
+    BINOME: 'compliquer et plus rapide.',
+    TITRE: '',
+    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID FIGMA': '',
+    DESCRIPTION: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
+    'COMMANDES DU CLAVIER': '',
+    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    NOMS: '',
+    PDF: '',
   },
   {
     BINOME: 'CHIKER_LEMOINE',
@@ -110,28 +144,35 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Dorine CHIKER\nYohann LEMOINE',
+    PDF: '',
   },
   {
     BINOME: 'COCIELLA_BOUKHATEM',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'NAKED CHICKEN RUN',
+    'ID SCRATCH (NEUF CHIFFRES)': 792343744,
     'ID FIGMA': 'VOg1bJOKjglqy5frCNcTG6',
     DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter.\n↓ pour descendre.\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Sarah BOUKHATEM\nBrune COCIELLA',
+    PDF: '',
   },
   {
     BINOME: 'DAVID_MOHAMMAD',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'SHADOW',
+    'ID SCRATCH (NEUF CHIFFRES)': 792355900,
     'ID FIGMA': '403w16tI1UHOhtjj0JLQQp',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Eccho est un esprit à la recherche de son âme. Celle-ci a été dérobé par des esprits de lumière.\nCachant sa colère derrière son masque, Eccho se lance dans une chasse sans merci contre ces petites boules diaboliques. Il est prêt à tout, même à traverser les ténèbres pour retrouver son âme volée.\nAide-le à vaincre ses ennemis\net à retrouver son bien le plus précieux.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/sSNUfu4oidA',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/SKdtXCnR/FOND1.jpg\nhttps://i.postimg.cc/x1KZ2WYK/FOND2.jpg\nhttps://i.postimg.cc/xCdpL8mR/GAMEOVER.jpg\nhttps://i.postimg.cc/HxPZzm4C/PLAY.jpg\nhttps://i.postimg.cc/wBgGT0Tn/START.jpg',
     NOMS: 'Maïka DAVID\nHadia MOHAMMAD',
+    PDF: 'https://drive.google.com/file/d/1YurfF1gKqWbbmVMJVhujKRuJM-m6dtXr/view?usp=share_link',
   },
   {
     BINOME: 'DELANSORNE_DUHAMEL_RIBOUCHON',
@@ -145,6 +186,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Caroline DELANSORNE\nLena DUHAMEL\nMatthie RIBOUCHON',
+    PDF: '',
   },
   {
     BINOME: 'EGUCHI_LAURENT',
@@ -158,17 +200,21 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Kyoka EGUCHI\nEnzo LAURENT',
+    PDF: '',
   },
   {
     BINOME: 'FENGAROL_OLIVERO_LE-DU',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'Rambaussice',
+    'ID SCRATCH (NEUF CHIFFRES)': 792387024,
     'ID FIGMA': 'kW3se4piwqRPoWzoFNMJSa',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      "Après l'apparition d'un virus mortel touchant exclusivement les éléments végétaux, notre héros et soldat rambaussice sera envoyé en mission dans un vieux dinner américain afin d'éradiquer cette nouvelle menace.",
+    'COMMANDES DU CLAVIER':
+      '→ Pour avancer,\n← Pour reculer,\nA pour  tirer du ketchup\nZ pour tirer de la moutarde',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Owen FENGAROL\nClément OLIVERO\nJustine LE DÛ',
+    PDF: '',
   },
   {
     BINOME: 'FOUCHONNERET_HADDAD_MARCIANO',
@@ -180,19 +226,21 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Hugo FOUCHONNERET\nRaphael HADDAD\nShani MARCIANO',
+    PDF: '',
   },
   {
     BINOME: 'GENDRON_VITURAT',
     TITRE: 'Slimy Jimy',
-    'ID SCRATCH (NEUF CHIFFRES)': 791859224,
+    'ID SCRATCH (NEUF CHIFFRES)': 792380692,
     'ID FIGMA': 'unww5VsL5c078gi1zts0e3',
     DESCRIPTION:
       "un slime n’ayant pas le droit à l’erreur, doit aller libérer les siens dans un monde sans dessus dessous à en perdre la tête ! Alors partez à l’aventure et sauvez vos semblables.\nAidez le slime à récupérer ses munissions (glaçons, feuilles, slime et boule de feu) afin d’en faire ses armes pour combattre ses ennemis. Dans le version Scratch, nous n'avons développé qu'un seul aspect du jeu. Il n'y a donc pour l'instant qu'un seul des 4 fonds et pas de munissions à récupérer car c'est grâce à cela que le monde change d'aspect.",
     'COMMANDES DU CLAVIER':
-      "Personnage principal reste immobile,\nBarre d'espace : envoi missiles pour tuer les ennemis,\nFlêches haut et bas : sauter.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+      "Personnage principal reste immobile,\nBarre d'espace : envoi missiles pour tuer les ennemis,\n↑ Monter,\n↓ Descendre.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/HyoHov4mZEQ',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Yohann GENDRON\nCharlotte VITURAT',
+    PDF: 'https://drive.google.com/file/d/1I3B_pjLkW_PURSW4hTQpovWhkB4ubi7F/view?usp=share_link',
   },
   {
     BINOME: 'GODINEAU_LE-GRUMELEC',
@@ -204,17 +252,20 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Anouck GODINEAU\nGaël LE-GRUMELEC',
+    PDF: '',
   },
   {
     BINOME: 'GOURLAIN_OUADY',
     TITRE: 'StolenDreams',
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': 'xCz6iXXcYF1rMMQ1n0qfNN',
-    DESCRIPTION: '',
+    DESCRIPTION:
+      'Tobs est un survivant de la guerre des rêves, depuis un siècle, il parcourt la planète Wobis pour retrouver les siens et donc récupérer sa planète qui est actuellement conquise par la communauté des Warbs (les voleurs de rêves). Il devra les affronter tout au long de son aventure, à travers ses combats, il pourra récupérer des rêves perdus et les stocker pour ensuite les redistribuer à sa communauté et reconquérir leur terre.',
     'COMMANDES DU CLAVIER': '',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Killian GOURLAIN\nGuillaume OUADY',
+    PDF: 'https://drive.google.com/file/d/1HiW6wgD-mZySyKQXhFMN8fIf-qE6u1EN/view?usp=share_link',
   },
   {
     BINOME: 'HURTREL_NACKI',
@@ -226,6 +277,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Quentin HURTREL\nMarc-Lewis NACKI',
+    PDF: '',
   },
   {
     BINOME: 'LANG_VALACH',
@@ -238,6 +290,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Léna LANG\nAlexandra VALACH',
+    PDF: '',
   },
   {
     BINOME: 'LEMARIE_ROSSIGNOL',
@@ -252,6 +305,7 @@ const rawGames = [
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/rmTFyvpq/Page-play.jpg\nhttps://i.postimg.cc/7hQQNsmp/Page-aie.jpg\nhttps://i.postimg.cc/hvG5TWbL/Page-chargement.jpg\nhttps://i.postimg.cc/gJs7xkRc/Page-map-2.jpg\nhttps://i.postimg.cc/448MZysB/Page-map1.jpg',
     NOMS: 'Lou-Ann LEMARIE\nSyndel ROSSIGNOL',
+    PDF: 'https://drive.google.com/file/d/1Tr9G2Y46pav1s7Wsfhl6vFiSnxafUsUT/view?usp=share_link',
   },
   {
     BINOME: 'LOUIS-THERESE_PICH-SOEUN',
@@ -265,29 +319,35 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Camile LOUIS-THERESE\nMarie PICH-SOEUN',
+    PDF: '',
   },
   {
     BINOME: 'LUBANGI-MUTOKE_ONGOUALA',
     TITRE: "Les Décombres De L'atlantique",
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 792306499,
     'ID FIGMA': 'DlIcmrNeYZDS3vTDk5Phsm',
     DESCRIPTION:
-      'Lors d’une croisière en direction du Canada, le bateau connaît un accident en heurtant un iceberg. Le rescapé possède une bonbonne d’oxygène q u’il a récupéré dans les débris, il possède un masque à décharge électrique qu’il a fabriqué avec les anguilles des profondeurs. \nAvec la bonbonne, le rescapé tente de s’en sortir en deviant les stalactites et en détruisant les objets et en cas de contacts avec les stalactites, le rescaper perd des vies, au bout de la 10e, il meurt.',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+      'Lors d’une croisière en direction du Canada, le bateau connaît un accident en heurtant un iceberg. Le rescapé possède une bombonne d’oxygène qu’il a récupéré dans les débris, il possède un masque à décharges électriques qu’il a fabriqué avec les anguilles des profondeurs. \nAvec la bombonne, le rescapé tente de s’en sortir en deviant les stalactites et en détruisant les objets et en cas de contacts avec les stalactites, le rescapé perd des vies, au bout de la 10ème, il meurt.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/OEUHreI1uqU',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Karamatou LUBANGI-MUTOKE\nYanis ONGOUALA',
+    PDF: '',
   },
   {
     BINOME: 'MAZEAU_RICHERT',
-    TITRE: '',
+    TITRE: "DRIPMAST'R",
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': 'vwuTNrkJXoU6fx7afEr4jb',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      'Contrôle le Drip Master dans ce nouveau shoot em up ! Personnalise ton Drip master, puis balade toi dans les rues en quête de nouvelles pièces à mettre.\nPour ça, il va falloir saper les méchants hypebeast qui traînent dans la rue à la sortie de la nouvelle collection Balenciaga x Supreme',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Tom MAZEAU\nLise RICHERT',
+    PDF: '',
   },
   {
     BINOME: 'NINAUD_UGOLINI',
@@ -299,6 +359,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
+    PDF: '',
   },
   {
     BINOME: 'RANJARD_SULTAN',
@@ -312,6 +373,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/cQhNromYVIQ',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Bastien RANJARD\nTobias SULTAN',
+    PDF: '',
   },
 ]
 
@@ -325,6 +387,7 @@ const rawGames = [
  * @property {string} youtubeId
  * @property {[string]} screenshots
  * @property {[string]} authors
+ * @property {string} pdfLink
  */
 
 /** @type {[Game]} */ const games = rawGames
@@ -356,6 +419,7 @@ const rawGames = [
       ),
     ].filter((s) => s !== '')
     const authors = splitString(rawGame['NOMS'])
+    const pdfLink = rawGame['PDF']
 
     return {
       title,
@@ -366,6 +430,7 @@ const rawGames = [
       youtubeId,
       screenshots,
       authors,
+      pdfLink,
     }
   })
   .filter((game) => game)
