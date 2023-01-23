@@ -14,4 +14,31 @@ const getIdFromUrlParams = () => {
   return urlParams.get('id')
 }
 
-export { splitString, getIdFromYouTubeLink, getIdFromUrlParams }
+/**
+ * @param  {[string]} authors
+ * @returns {string}
+ */
+const getAuthorsHtmlContent = (authors) => {
+  let htmlContent = 'Par '
+
+  authors.forEach((author, i) => {
+    if (i === 0)
+      htmlContent += `<strong>${author}${
+        authors.length > 2 ? ',' : ''
+      }</strong>`
+    else if (i < authors.length - 1 && i !== authors.length - 1)
+      htmlContent += ` <strong>${author}${
+        authors.length > 3 ? ',' : ''
+      }</strong>`
+    else htmlContent += ` et <strong>${author}</strong>`
+  })
+
+  return htmlContent
+}
+
+export {
+  splitString,
+  getIdFromYouTubeLink,
+  getIdFromUrlParams,
+  getAuthorsHtmlContent,
+}

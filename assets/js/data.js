@@ -324,6 +324,7 @@ const rawGames = [
  * @property {[string]} controls
  * @property {string} youtubeId
  * @property {[string]} screenshots
+ * @property {[string]} authors
  */
 
 /** @type {[Game]} */ const games = rawGames
@@ -354,6 +355,7 @@ const rawGames = [
         rawGame['LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3']
       ),
     ].filter((s) => s !== '')
+    const authors = splitString(rawGame['NOMS'])
 
     return {
       title,
@@ -363,6 +365,7 @@ const rawGames = [
       controls,
       youtubeId,
       screenshots,
+      authors,
     }
   })
   .filter((game) => game)

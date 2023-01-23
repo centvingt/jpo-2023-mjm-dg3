@@ -1,5 +1,5 @@
 import { games } from './data.js'
-import { getIdFromUrlParams } from './utils.js'
+import { getIdFromUrlParams, getAuthorsHtmlContent } from './utils.js'
 
 const header = document.querySelector('header')
 const titleElement = document.querySelector('h1')
@@ -12,6 +12,7 @@ const screenshotsContainer = document.querySelector('.screenshots')
 /** @type {HTMLElement} */ const scratchMobileWarning = document.querySelector(
   '.scratch__mobile-warning'
 )
+const authorsContainer = document.querySelector('h4')
 
 const id = getIdFromUrlParams()
 const game = games.find((g) => g.scratchId === id) ?? {
@@ -24,9 +25,12 @@ const game = games.find((g) => g.scratchId === id) ?? {
   scratchId: '',
 }
 
-const { title, descriptionParagraphs, controls, screenshots } = game
+const { title, descriptionParagraphs, controls, screenshots, authors } = game
 
 titleElement.innerText = title
+
+authorsContainer.innerHTML = getAuthorsHtmlContent(authors)
+
 gameIframe.src = `https://scratch.mit.edu/projects/${id}/embed`
 
 descriptionParagraphs.forEach((p) => {
