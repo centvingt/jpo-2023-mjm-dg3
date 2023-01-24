@@ -165,7 +165,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 792355900,
     'ID FIGMA': '403w16tI1UHOhtjj0JLQQp',
     DESCRIPTION:
-      'Eccho est un esprit à la recherche de son âme. Celle-ci a été dérobé par des esprits de lumière.\nCachant sa colère derrière son masque, Eccho se lance dans une chasse sans merci contre ces petites boules diaboliques. Il est prêt à tout, même à traverser les ténèbres pour retrouver son âme volée.\nAide-le à vaincre ses ennemis\net à retrouver son bien le plus précieux.',
+      'Eccho est un esprit à la recherche de son âme. Celle-ci a été dérobée par des esprits de lumière. Cachant sa colère derrière son masque, Eccho se lance dans une chasse sans merci contre ces petites boules diaboliques. Il est prêt à tout, même à traverser les ténèbres pour retrouver son âme volée. \nAide-le à vaincre ses ennemis et à retrouver son bien le plus précieux.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/sSNUfu4oidA',
@@ -210,7 +210,7 @@ const rawGames = [
     DESCRIPTION:
       "Après l'apparition d'un virus mortel touchant exclusivement les éléments végétaux, notre héros et soldat rambaussice sera envoyé en mission dans un vieux dinner américain afin d'éradiquer cette nouvelle menace.",
     'COMMANDES DU CLAVIER':
-      '→ Pour avancer,\n← Pour reculer,\nA pour  tirer du ketchup\nZ pour tirer de la moutarde',
+      "→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer du ketchup",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Owen FENGAROL\nClément OLIVERO\nJustine LE DÛ',
@@ -234,7 +234,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 792380692,
     'ID FIGMA': 'unww5VsL5c078gi1zts0e3',
     DESCRIPTION:
-      "un slime n’ayant pas le droit à l’erreur, doit aller libérer les siens dans un monde sans dessus dessous à en perdre la tête ! Alors partez à l’aventure et sauvez vos semblables.\nAidez le slime à récupérer ses munissions (glaçons, feuilles, slime et boule de feu) afin d’en faire ses armes pour combattre ses ennemis. Dans le version Scratch, nous n'avons développé qu'un seul aspect du jeu. Il n'y a donc pour l'instant qu'un seul des 4 fonds et pas de munissions à récupérer car c'est grâce à cela que le monde change d'aspect.",
+      "Un slime n’ayant pas le droit à l’erreur, doit aller libérer les siens dans un monde sans dessus dessous à en perdre la tête ! Alors partez à l’aventure et sauvez vos semblables.\nAidez le slime à récupérer ses munissions (glaçons, feuilles, slime et boule de feu) afin d’en faire ses armes pour combattre ses ennemis. Dans le version Scratch, nous n'avons développé qu'un seul aspect du jeu. Il n'y a donc pour l'instant qu'un seul des 4 fonds et pas de munissions à récupérer car c'est grâce à cela que le monde change d'aspect.",
     'COMMANDES DU CLAVIER':
       "Personnage principal reste immobile,\nBarre d'espace : envoi missiles pour tuer les ennemis,\n↑ Monter,\n↓ Descendre.",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/HyoHov4mZEQ',

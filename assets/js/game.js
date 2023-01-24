@@ -14,6 +14,7 @@ const screenshotsContainer = document.querySelector('.screenshots')
 )
 const authorsContainer = document.querySelector('h4')
 const conceptionUl = document.querySelector('.conception')
+const figmaIframe = document.querySelector('.figma > iframe')
 
 const id = getIdFromUrlParams()
 const game = games.find((g) => g.scratchId === id) ?? {
@@ -50,8 +51,11 @@ controls.forEach((control) => (controlsUl.innerHTML += `<li>${control}</li>`))
 
 conceptionUl.innerHTML = `
 <li><a href="${pdfLink}" target="_blank">Télécharger le PDF du dossier de coneption</a></li>
-<li><a href="https://www.figma.com/file/${figmaId}" target="_blank">Consulter les maquettes Figma</a></li>
+<li><a href="#figma" target="_blank">Voir le travail de conception sur Figma</a></li>
 `
+/* <li><a href="https://www.figma.com/file/${figmaId}" target="_blank">Voir les maquettes sur le site de Figma</a></li> */
+
+figmaIframe.src = `https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2F${figmaId}`
 
 const youtubeScreenshots = screenshots.filter((s) => !s.startsWith('https://'))
 const imagesScreenshots = screenshots.filter((s) => s.startsWith('https://'))
