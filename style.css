@@ -43,6 +43,7 @@ body {
     background-color: var(--color);
 
     backdrop-filter: var(--filter);
+    -webkit-backdrop-filter: var(--filter);
     min-height: 100vh;
 
     font-family: 'Unbounded', cursive;
@@ -86,6 +87,7 @@ header {
     transform-origin: top left;
     z-index: 1;
     backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     background-color: hsla(
         var(--hue),
         var(--saturation),
@@ -229,7 +231,9 @@ iframe {
 .link-to-game:hover > span {
     /* background-color: var(--color); */
     /* backdrop-filter: none; */
+    /* -webkit-backdrop-filter: none; */
     /* backdrop-filter: none; */
+    /* -webkit-backdrop-filter: none; */
     filter: none;
     /* filter: brightness(1.5); */
     color: #ccc;
