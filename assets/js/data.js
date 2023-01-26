@@ -10,7 +10,7 @@ const rawGames = [
       'vous êtes plongée dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
     'COMMANDES DU CLAVIER':
       "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/bl7eL1EacXM',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Alexia ABAKAR\nRaphaël COSIALLS',
     PDF: '',
@@ -72,14 +72,16 @@ const rawGames = [
   {
     BINOME: 'BORDAS_HAMIDI',
     TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 770909946,
     'ID FIGMA': 'vS3SGPYB4FeLGl87pBHb8X',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Dans la peau d’une cellule immunitaire, le but sera d’esquiver les différents microbes provenant de la fenêtre qui donne sur\nla ville. Celle-ci étant grande ouverte, les bactéries se voient alors frayer leurs chemins dans le salon. Attention à ne pas trop\nse relâcher, le vent peut être plus virulent et permettre aux microbes d’avoir encore plus de vitesse ! Ne vous inquiétez pas,\ncertains objets seront là pour vous aider à tenir !',
+    'COMMANDES DU CLAVIER': '↑ Pour monter,\n↓ Pour descendre,',
+    'LIEN YOUTUBE FORMAT 4:3':
+      'https://www.youtube.com/watch?v=Kwq0cf5STaw&ab_channel=Hou2s',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Romain BORDAS\nHoussine HAMIDI',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1ZGgLg8O8sUkIsala_DSO8DL8TLVG5-tT',
   },
   {
     BINOME: 'BRUNET_DONINEAUX',
@@ -299,16 +301,16 @@ const rawGames = [
   {
     BINOME: 'LOUIS-THERESE_PICH-SOEUN',
     TITRE: 'NoFace',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 787597744,
     'ID FIGMA': '5TwfbjTGiDgCd34tiUb9Wb',
     DESCRIPTION:
-      'Bienvenue dans le nouveau monde Yume*  où des monstres sèment le chaos. Les humains sont traqués, attaqués et leur identité leur est volée.  Tu incarnes le rôle d’un Sans-Visage. Récupère tous les masques retenus par les Face Eaters. Ces masques vont t’aider à découvrir ta véritable identité. Pour les récupérer, affronte les ennemis se trouvant dans le donjon Brumeux.',
+      'Bienvenue dans le nouveau monde Yume  où des monstres sèment le chaos. Les humains sont traqués, attaqués et leur identité leur est volée.  Tu incarnes le rôle d’un Sans-Visage. Récupère tous les masques retenus par les Face Eaters. Ces masques vont t’aider à découvrir ta véritable identité. Pour les récupérer, affronte les ennemis se trouvant dans le donjon Brumeux.',
     'COMMANDES DU CLAVIER':
       "↑ pour monter, \n↓ pour descendre, \nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/e1QUudmnyo4',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Camile LOUIS-THERESE\nMarie PICH-SOEUN',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1IENJGukqtqT3cTX5WmqDdNP-laLFVpfx',
   },
   {
     BINOME: 'LUBANGI-MUTOKE_ONGOUALA',
@@ -340,7 +342,7 @@ const rawGames = [
   },
   {
     BINOME: 'NINAUD_UGOLINI',
-    TITRE: '',
+    TITRE: 'Pipo & his alter ego',
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': 'xqkGIeKJC9TOnQtLsJdBxB',
     DESCRIPTION: '',
