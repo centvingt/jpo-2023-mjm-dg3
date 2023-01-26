@@ -21,7 +21,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 792348480,
     'ID FIGMA': 'xlNXtG9pXd9JdO8gYGmzRa',
     DESCRIPTION:
-      'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous\ntrouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez\nbeaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin\nqu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur\ndonnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour\ngagner un maximum de point et passer au niveau supérieur.',
+      'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous trouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez beaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin qu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur donnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour gagner un maximum de point et passer au niveau supérieur.',
     'COMMANDES DU CLAVIER':
       "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/GMBevmdsqco',
@@ -36,10 +36,10 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 788935190,
     'ID FIGMA': '1u6DhD2KlZ2KfX3ri73pTw',
     DESCRIPTION:
-      'Une page blanche. C’est le monde dont vit Ink, le personnage principal.\nSon objectif ? Encrer tous ceux qui se trouvent sur son passage !\nArmé de son stylo, il est déterminé à remplir la feuille de tâche d’encre.\nAlors aidez-le à accomplir son objectif pour remplir la page !\nÀ vos stylos !\nLe concept du jeu est de toucher les ennemis avec les projectils de notre stylo.\nMais il faudra faire attention à ne pas se faire toucher ou à user le réservoir\ntrop rapidement. Plus on touchera d’ennemis, plus le score sera élevé.\nSi on obtient un score assez élevé, on pourra passer au niveau suivant.',
+      'Une page blanche. C’est le monde dont vit Ink, le personnage principal. Son objectif ? Encrer tous ceux qui se trouvent sur son passage ! Armé de son stylo, il est déterminé à remplir la feuille de tâche d’encre. Alors aidez-le à accomplir son objectif pour remplir la page ! À vos stylos !\nLe concept du jeu est de toucher les ennemis avec les projectils de notre stylo. Mais il faudra faire attention à ne pas se faire toucher ou à user le réservoir trop rapidement. Plus on touchera d’ennemis, plus le score sera élevé. Si on obtient un score assez élevé, on pourra passer au niveau suivant.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/zKzh1GsY0ns',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/VJcFgpYtULE',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/6q6gBmwc/Jeu-Ink-Sc-ne-1-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/Nj2VGTh3/Jeu-Ink-Sc-ne-2-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KYXW1zxR/Jeu-Ink-Sc-ne-3-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KvHwyfW7/Jeu-Ink-Sc-ne-4-Bekka-et-Lalanne-jeu-de-tir.jpg',
     NOMS: 'Inès BEKKA\nIsis LALANNE',
@@ -83,16 +83,17 @@ const rawGames = [
   },
   {
     BINOME: 'BRUNET_DONINEAUX',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'UTOPIA',
+    'ID SCRATCH (NEUF CHIFFRES)': 793418282,
     'ID FIGMA': '6GzOGjbeiwoCnI1PAed25o',
-    DESCRIPTION: '',
+    DESCRIPTION:
+      'Icard est un monde ressemblant à la Terre, à la différence est que celui-ci, est imprégné de magie. Une région de ce monde est néanmoins toujours inexploré car très dangereux, cette région est constitué d’îles flottantes qui se déplacent au grès du vent et abritent des monstres dangereux. Une ancienne légende raconte qu’un explorateur du nom de Standorf fît la plus grosse découverte de l’ancien monde, le plus grand trésors du monde, « La Perle » . Un jeune homme, Jim Hawkins rêve d’aventure, mais Jim a des responsabilités, Jim a perdu ses parents jeune, le laissant lui et sa soeur, seul. La soeur de Jim est très malade, mais il n’a pas assez d’argent pour lui fournir les soins nécessaire. Il décide donc de partir à l’aventure, à la recherche du plus grand trésor du monde, pour trouver l’argent nécessaire à l’achat des soins destinés sa soeur.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Charles BRUNET\nThomas DONINEAUX',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1iWGOQ1ciElcM5Cs6S2IylT6G_uhvvmB6',
   },
   {
     BINOME: 'CHAN_LUU_NEREE',
@@ -115,23 +116,11 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 792348268,
     'ID FIGMA': 'kGI1AOhfH4XABgrOC7WjVb',
     DESCRIPTION:
-      'L’objectif du jeu est de survivre le plus longtemps possible, tout en attaquant les ennemis qui arrivent de face (chauves-sousrice) avec les shuriken. Plus vous tué d’ennemies plus vous marquer des points et votre score augmente. Plus le joueur passe de niveaux plus le jeu devient',
+      'L’objectif du jeu est de survivre le plus longtemps possible, tout en attaquant les ennemis qui arrivent de face (chauves-sousrice) avec les shuriken. Plus vous tué d’ennemies plus vous marquer des points et votre score augmente. Plus le joueur passe de niveaux plus le jeu devient\n compliquer et plus rapide.',
     'COMMANDES DU CLAVIER': '',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME: 'compliquer et plus rapide.',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
+    NOMS: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
     PDF: '',
   },
   {
@@ -162,13 +151,13 @@ const rawGames = [
   {
     BINOME: 'DAVID_MOHAMMAD',
     TITRE: 'SHADOW',
-    'ID SCRATCH (NEUF CHIFFRES)': 792355900,
+    'ID SCRATCH (NEUF CHIFFRES)': 793427152,
     'ID FIGMA': '403w16tI1UHOhtjj0JLQQp',
     DESCRIPTION:
       'Eccho est un esprit à la recherche de son âme. Celle-ci a été dérobée par des esprits de lumière. Cachant sa colère derrière son masque, Eccho se lance dans une chasse sans merci contre ces petites boules diaboliques. Il est prêt à tout, même à traverser les ténèbres pour retrouver son âme volée. \nAide-le à vaincre ses ennemis et à retrouver son bien le plus précieux.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/sSNUfu4oidA',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Q9Fk9YW1Gr4',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/SKdtXCnR/FOND1.jpg\nhttps://i.postimg.cc/x1KZ2WYK/FOND2.jpg\nhttps://i.postimg.cc/xCdpL8mR/GAMEOVER.jpg\nhttps://i.postimg.cc/HxPZzm4C/PLAY.jpg\nhttps://i.postimg.cc/wBgGT0Tn/START.jpg',
     NOMS: 'Maïka DAVID\nHadia MOHAMMAD',
@@ -208,13 +197,13 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 792387024,
     'ID FIGMA': 'kW3se4piwqRPoWzoFNMJSa',
     DESCRIPTION:
-      "Après l'apparition d'un virus mortel touchant exclusivement les éléments végétaux, notre héros et soldat rambaussice sera envoyé en mission dans un vieux dinner américain afin d'éradiquer cette nouvelle menace.",
+      "Après l'apparition d'un virus mortel touchant exclusivement les éléments végétaux, notre héros et soldat Rambaussice sera envoyé en mission dans un vieux dinner américain afin d'éradiquer cette nouvelle menace.",
     'COMMANDES DU CLAVIER':
       "→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer du ketchup",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Oe4yUMT4xFo',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Owen FENGAROL\nClément OLIVERO\nJustine LE DÛ',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1xG4vTCkhQwykWwCB-J5vmZp7KFOzoJ09/view?usp=sharing',
   },
   {
     BINOME: 'FOUCHONNERET_HADDAD_MARCIANO',
