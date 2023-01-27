@@ -7,7 +7,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 794256856,
     'ID FIGMA': 'vdEKzfEWTjPe5DTb3jRj7u',
     DESCRIPTION:
-      'vous êtes plongée dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
+      'vous êtes plongéez dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
     'COMMANDES DU CLAVIER':
       "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/bl7eL1EacXM',
@@ -47,11 +47,13 @@ const rawGames = [
   },
   {
     BINOME: 'BENONI_MORLAT',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'Pink Justice',
+    'ID SCRATCH (NEUF CHIFFRES)': 794652190,
     'ID FIGMA': 'ieCPJpabAM862wiHiv68V7',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      'Dans un monde malheureux où le divorce est monnaie très courante, Cupidon s’énerve fortement. Armé de ses deux pistolets, il tue ces satanés papiers trop facile à signer.\nAlors restaurons un monde d’amour !',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Dylan BENONI\nSébastien MORLAT',
@@ -59,8 +61,8 @@ const rawGames = [
   },
   {
     BINOME: 'BONIN_CALOM',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'The Night War',
+    'ID SCRATCH (NEUF CHIFFRES)': 794494072,
     'ID FIGMA': 'GH6yHvrUmll8nJw2UBklUZ/',
     DESCRIPTION:
       'L’histoire se déroule pendant nos rêves et plus précisemment dans un cauchemar.',
@@ -150,7 +152,7 @@ const rawGames = [
       'LOTS: Boule de lumières, ce sont l’argent dans notre jeu. Ce qui nous permettra d’acheter des armes et différents équipements.',
     TITRE:
       "→ pour avancer,\n← pour reculer, barre d'espace pour tirer sur les ennemis, toucher a pour faire revenir morpheus à sa position de départ",
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 'https://youtu.be/AchtQFCbpxw',
     'ID FIGMA': '',
     DESCRIPTION: 'Marion BONIN\nAgathe CALOM',
     'COMMANDES DU CLAVIER':
@@ -168,8 +170,7 @@ const rawGames = [
     DESCRIPTION:
       'Dans la peau d’une cellule immunitaire, le but sera d’esquiver les différents microbes provenant de la fenêtre qui donne sur\nla ville. Celle-ci étant grande ouverte, les bactéries se voient alors frayer leurs chemins dans le salon. Attention à ne pas trop\nse relâcher, le vent peut être plus virulent et permettre aux microbes d’avoir encore plus de vitesse ! Ne vous inquiétez pas,\ncertains objets seront là pour vous aider à tenir !',
     'COMMANDES DU CLAVIER': '↑ Pour monter,\n↓ Pour descendre,',
-    'LIEN YOUTUBE FORMAT 4:3':
-      'https://www.youtube.com/watch?v=Kwq0cf5STaw&ab_channel=Hou2s',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Kwq0cf5STaw',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Romain BORDAS\nHoussine HAMIDI',
     PDF: 'https://drive.google.com/drive/folders/1ZGgLg8O8sUkIsala_DSO8DL8TLVG5-tT',
@@ -199,7 +200,7 @@ const rawGames = [
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis (méduses).",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://postimg.cc/gallery/gPZC1R2',
+      'https://i.postimg.cc/C1qNLQsT/background-Plym-s-quest-final.jpg\nhttps://i.postimg.cc/CLN41Dk1/Ecran-du-jeu.jpg\nhttps://i.postimg.cc/Df1g9Rz1/ecran-game-over.jpg\nhttps://i.postimg.cc/65w0tz7g/ecran-level-completed.jpg\nhttps://i.postimg.cc/cJK7Xbjg/Gameplay-1.jpg\nhttps://i.postimg.cc/fy7fYSP8/Gameplay-2.jpg\nhttps://i.postimg.cc/mggyFDyS/Gameplay-3.jpg\nhttps://i.postimg.cc/Sx17LhZb/screen-title-Plym-s-quest.jpg',
     NOMS: 'Miranda CHAN SIO MOUI\nNancy LUU\nAurélie NÉRÉE',
     PDF: 'https://drive.google.com/file/d/1T1Xz5ezw-ufiARVPCi4QYgV2cQWYYcm4/view?usp=share_link',
   },
@@ -210,11 +211,12 @@ const rawGames = [
     'ID FIGMA': 'kGI1AOhfH4XABgrOC7WjVb',
     DESCRIPTION:
       'L’objectif du jeu est de survivre le plus longtemps possible, tout en attaquant les ennemis qui arrivent de face (chauves-sousrice) avec les shuriken. Plus vous tué d’ennemies plus vous marquer des points et votre score augmente. Plus le joueur passe de niveaux plus le jeu devient\n compliquer et plus rapide.',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis (riz).",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/HXGdL2CqVRI',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1JPwArktkrNKa7FAGE7VhuKGA6kRuZD3n',
   },
   {
     BINOME: 'CHIKER_LEMOINE',
@@ -244,7 +246,7 @@ const rawGames = [
   {
     BINOME: 'DAVID_MOHAMMAD',
     TITRE: 'SHADOW',
-    'ID SCRATCH (NEUF CHIFFRES)': 793427152,
+    'ID SCRATCH (NEUF CHIFFRES)': 794689954,
     'ID FIGMA': '403w16tI1UHOhtjj0JLQQp',
     DESCRIPTION:
       'Eccho est un esprit à la recherche de son âme. Celle-ci a été dérobée par des esprits de lumière. Cachant sa colère derrière son masque, Eccho se lance dans une chasse sans merci contre ces petites boules diaboliques. Il est prêt à tout, même à traverser les ténèbres pour retrouver son âme volée. \nAide-le à vaincre ses ennemis et à retrouver son bien le plus précieux.',
@@ -265,7 +267,7 @@ const rawGames = [
       "Il s'agit de la création d'un jeu indépendant. Nous utilisons la technique d'impression risographie.\nTout gris, tout triste et tout grincheux, un petit chat seul sur son territoire terne, est envahi d'oiseaux et de magie ! Ils sont en couleur. Il décide alors avec son élastique à cheveux, de tirer sur des oiseaux qui laissent tomber des plumes colorées. Il partira alors à la recherche des plus belles couleurs du monde.",
     'COMMANDES DU CLAVIER':
       "↑ pour monter, \n↓ pour descendre, \nBarre d'espace pour tirer sur les ennemis,\nFaites attention aux obstacles qui vous feront perdre votre jauge d'enthousiasme et votre vie.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/AppGDx9f_sg',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Caroline DELANSORNE\nLena DUHAMEL\nMatthie RIBOUCHON',
     PDF: 'https://drive.google.com/file/d/1H3FKy9arqGGva-8V9e_2UosuewICcbfh/view?usp=share_link',
@@ -277,7 +279,7 @@ const rawGames = [
     'ID FIGMA': 'n5uoMd7SxCQbxb4IACGDe0',
     DESCRIPTION:
       'Anyborg est un jeu vidéo en 2D du genre Shoot’em up où le joueur devra incarner un “aniborg” (chasseur de prime mi-animal mi-cyborg), dont la mission est de renverser un dictateur et son armée de robots. Ce jeu se veut comme un hommage au cinéma de science-fiction ayant marqué le XXème siècle.',
-    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nBouton DEATH : tirer",
+    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nFlèche de droite : tirer",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Kyoka EGUCHI\nEnzo LAURENT',
@@ -295,7 +297,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Oe4yUMT4xFo',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Owen FENGAROL\nClément OLIVERO\nJustine LE DÛ',
-    PDF: 'https://drive.google.com/file/d/1xG4vTCkhQwykWwCB-J5vmZp7KFOzoJ09/view?usp=sharing',
+    PDF: 'https://drive.google.com/drive/folders/1jg9kTGnscFxDcnhHltP809alpEWiJAbc',
   },
   {
     BINOME: 'FOUCHONNERET_HADDAD_MARCIANO',
@@ -335,10 +337,10 @@ const rawGames = [
       'Il y a des années, la paix régnait sur la planète Val’Zar.\nLes terres étaient séparées équitablement entre les différentes races qui peuplaient la planète, les frontières étaient respectées.\nLe peuple du Trépas, habitant le continent du désert de glace, agit dans l’ombre et cherche désormais à s’emparer de toute la planète, plongeant les terres restantes dans le froid et l’obscurité,\nce qui représente une menace pour les autres peuples.\nLe continent des druides a élu son dragonnier sorcier le plus puissant afin de repousser les guerriers du Trépas qui cherchent à s’approprier leurs contrées, vous incarnerez ce guerrier.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/5jlvjIMGZ_E',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Anouck GODINEAU\nGaël LE-GRUMELEC',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1NnoJyeajOLwBtw106scbThlrEeEZ8liQ',
   },
   {
     BINOME: 'GOURLAIN_OUADY',
@@ -347,7 +349,8 @@ const rawGames = [
     'ID FIGMA': 'xCz6iXXcYF1rMMQ1n0qfNN',
     DESCRIPTION:
       'Tobs est un survivant de la guerre des rêves, depuis un siècle, il parcourt la planète Wobis pour retrouver les siens et donc récupérer sa planète qui est actuellement conquise par la communauté des Warbs (les voleurs de rêves). Il devra les affronter tout au long de son aventure, à travers ses combats, il pourra récupérer des rêves perdus et les stocker pour ensuite les redistribuer à sa communauté et reconquérir leur terre.',
-    'COMMANDES DU CLAVIER': '',
+    'COMMANDES DU CLAVIER':
+      "Touche entrer pour commencer la game.\n.→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour sauter.\nTouche du A pour attaquer.\nTouche du R pour restart la game.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Killian GOURLAIN\nGuillaume OUADY',
@@ -356,11 +359,12 @@ const rawGames = [
   {
     BINOME: 'HURTREL_NACKI',
     TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 794541083,
     'ID FIGMA': 'GnYODZXtrOl2kjoe8Vy54M',
-    DESCRIPTION: '',
+    DESCRIPTION:
+      'Bienvenue dans un monde fantasy où vous incarnez le plus ancien esprits guardian. Vous devrez survivre contre de terrifiants monstres qui surgissent la nuit.',
     'COMMANDES DU CLAVIER':
-      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
+      '↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Quentin HURTREL\nMarc-Lewis NACKI',
@@ -427,7 +431,7 @@ const rawGames = [
   {
     BINOME: 'MAZEAU_RICHERT',
     TITRE: "DRIPMAST'R",
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 794722496,
     'ID FIGMA': 'vwuTNrkJXoU6fx7afEr4jb',
     DESCRIPTION:
       'Contrôle le Drip Master dans ce nouveau shoot em up ! Personnalise ton Drip master, puis balade toi dans les rues en quête de nouvelles pièces à mettre.\nPour ça, il va falloir saper les méchants hypebeast qui traînent dans la rue à la sortie de la nouvelle collection Balenciaga x Supreme',
@@ -448,9 +452,10 @@ const rawGames = [
     'COMMANDES DU CLAVIER':
       "← Pour viser tout droit\n→ Pour viser vers le haut\n↑ Pour sauter\nBarre d'espace pour tirer",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/y8pHiLZ_fWg',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://postimg.cc/tnCd3hv8https://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1irSOzh4QlRYPBhkY0sZUUGJoKATFBUn5',
   },
   {
     BINOME: 'RANJARD_SULTAN',
