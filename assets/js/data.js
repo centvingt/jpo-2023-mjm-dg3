@@ -3,8 +3,8 @@ import { splitString, getIdFromYouTubeLink } from './utils.js'
 const rawGames = [
   {
     BINOME: 'ABAKAR_COSIALLS',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'SHOOT CA',
+    'ID SCRATCH (NEUF CHIFFRES)': 794256856,
     'ID FIGMA': 'vdEKzfEWTjPe5DTb3jRj7u',
     DESCRIPTION:
       'vous êtes plongée dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
@@ -23,7 +23,7 @@ const rawGames = [
     DESCRIPTION:
       'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous trouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez beaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin qu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur donnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour gagner un maximum de point et passer au niveau supérieur.',
     'COMMANDES DU CLAVIER':
-      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/GMBevmdsqco',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/wMp82NXY/loose.jpg\nhttps://i.postimg.cc/XY7Wt9TV/16.jpg\nhttps://i.postimg.cc/g2SppnW3/d-but.jpg\nhttps://i.postimg.cc/FzVtBKpd/GAMEOVER.jpg\nhttps://i.postimg.cc/JnJCjxBQ/menu.jpg\nhttps://i.postimg.cc/DfrKZChv/nextlever.jpg\nhttps://i.postimg.cc/9fsj4KzM/playagain.jpg',
@@ -71,7 +71,7 @@ const rawGames = [
   },
   {
     BINOME: 'BORDAS_HAMIDI',
-    TITRE: '',
+    TITRE: 'MICROBE',
     'ID SCRATCH (NEUF CHIFFRES)': 770909946,
     'ID FIGMA': 'vS3SGPYB4FeLGl87pBHb8X',
     DESCRIPTION:
@@ -168,7 +168,7 @@ const rawGames = [
   {
     BINOME: 'DELANSORNE_DUHAMEL_RIBOUCHON',
     TITRE: 'ColorMeow',
-    'ID SCRATCH (NEUF CHIFFRES)': 791003537,
+    'ID SCRATCH (NEUF CHIFFRES)': 794451426,
     'ID FIGMA': 'KmnGKja2wfKB9kz57la1Fk',
     DESCRIPTION:
       "Il s'agit de la création d'un jeu indépendant. Nous utilisons la technique d'impression risographie.\nTout gris, tout triste et tout grincheux, un petit chat seul sur son territoire terne, est envahi d'oiseaux et de magie ! Ils sont en couleur. Il décide alors avec son élastique à cheveux, de tirer sur des oiseaux qui laissent tomber des plumes colorées. Il partira alors à la recherche des plus belles couleurs du monde.",
@@ -177,17 +177,16 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Caroline DELANSORNE\nLena DUHAMEL\nMatthie RIBOUCHON',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1H3FKy9arqGGva-8V9e_2UosuewICcbfh/view?usp=share_link',
   },
   {
     BINOME: 'EGUCHI_LAURENT',
-    TITRE: 'Anyborg',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'ANYBORG',
+    'ID SCRATCH (NEUF CHIFFRES)': 790995366,
     'ID FIGMA': 'n5uoMd7SxCQbxb4IACGDe0',
     DESCRIPTION:
       'Anyborg est un jeu vidéo en 2D du genre Shoot’em up où le joueur devra incarner un “aniborg” (chasseur de prime mi-animal mi-cyborg), dont la mission est de renverser un dictateur et son armée de robots. Ce jeu se veut comme un hommage au cinéma de science-fiction ayant marqué le XXème siècle.',
-    'COMMANDES DU CLAVIER':
-      "Le perso principal fait du surplace, c'est le décor qui défile. Il peut sauter grâce à la touche espace et tirer des lasers avec une touche spécialisée",
+    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nBouton DEATH : tirer",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Kyoka EGUCHI\nEnzo LAURENT',
@@ -209,13 +208,16 @@ const rawGames = [
   },
   {
     BINOME: 'FOUCHONNERET_HADDAD_MARCIANO',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'Cryptonight',
+    'ID SCRATCH (NEUF CHIFFRES)': 794444689,
     'ID FIGMA': 'PMkHfI0JNpZ36N1jndKojh',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    DESCRIPTION:
+      'Vous arrivez dans un monde dystopique dans lequel les crypto monnaies deviennent de plus en plus importantes, vous incarnez un résistant riche qui se fait poursuivre par des traders de cryptomonnaies acharnés à l’enrôler.',
+    'COMMANDES DU CLAVIER':
+      "↑ pour monter, \n↓ pour descendre, \nBarre d'espace pour tirer sur les ennemis",
     'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/RZknwd7T/Sratch-1.jpg\nhttps://i.postimg.cc/9fywb91H/Sratchgameover.jpg\nhttps://i.postimg.cc/0jXCvSLH/Frame-2.jpg\nhttps://i.postimg.cc/KYtQTRMR/Frame-3.jpg',
     NOMS: 'Hugo FOUCHONNERET\nRaphael HADDAD\nShani MARCIANO',
     PDF: '',
   },
@@ -235,11 +237,12 @@ const rawGames = [
   },
   {
     BINOME: 'GODINEAU_LE-GRUMELEC',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: "Val'zar",
+    'ID SCRATCH (NEUF CHIFFRES)': 794474686,
     'ID FIGMA': '5JTVUGjE7cneny4DeDzaiI',
     DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Anouck GODINEAU\nGaël LE-GRUMELEC',
@@ -264,7 +267,8 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': '',
     'ID FIGMA': 'GnYODZXtrOl2kjoe8Vy54M',
     DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
+    'COMMANDES DU CLAVIER':
+      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Quentin HURTREL\nMarc-Lewis NACKI',
@@ -277,11 +281,13 @@ const rawGames = [
     'ID FIGMA': 'bzfiyG3BAQienizUeMw5ok',
     DESCRIPTION:
       "Jeu ou l'on incarne des patisseries en cavale sur les toits de Paris qui se sont echappée d'une boulangerie après avoir prit vie. ( un. croissant, un muffin et une tarte aux fraises ). Elles sont poursuivies par le chat du boulanger ainsi que des chauve souris des ténèbres ( engagées par le chat ).",
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    'COMMANDES DU CLAVIER':
+      'perso 1 : E pour tirer espace pour sauter perso 2: A pour tirer espace pour sauter perso 3 : Z pour tirer espace pour sauter',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/iGpONqu8KzI',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/K8WsWHKz/Sans-titre-3.png \nhttps://i.postimg.cc/VspvYjJV/2.png\nhttps://i.postimg.cc/B6x341kd/4.png\nhttps://i.postimg.cc/wBLZmY2N/Sans-titre-1.png',
     NOMS: 'Léna LANG\nAlexandra VALACH',
-    PDF: '',
+    PDF: 'https://drive.google.com/drive/folders/1hEvUo7nEx-Gy_f1Iyl8CbprYDv5SBQeL',
   },
   {
     BINOME: 'LEMARIE_ROSSIGNOL',
@@ -289,7 +295,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 790992658,
     'ID FIGMA': 'WSyO3XlSdcNHYqddpF0A4N',
     DESCRIPTION:
-      'Une plante nommée Pow est à la recherche de sa famille. Pour les retrouver, elle doit traverser plusieurs mondes en évitant différents ennemis, elle peut les éliminer à l’aide de ses feuilles tranchantes.\nCependant, si un ennemi la touche, elle perd un pétale.\nPuis à un moment du jeux elle tombe dans un trou noir, la phrase « mettez vos lunettes » apparait. Elle atterrit alors dans le centre de la terre, un endroit où les deux mondes se superposent, les joueurs auront auront une visibilité réduite et devront alors mettre les lunettes afin de voir les ennemis ainsi que ce deuxième monde.',
+      'Une plante nommée Pow est à la recherche de sa famille. Pour les retrouver, elle doit traverser plusieurs mondes en évitant différents ennemis, elle peut les éliminer à l’aide de ses feuilles tranchantes.\nCependant, si un ennemi la touche, elle perd un pétale.\nPuis à un moment du jeux elle tombe dans un trou noir, la phrase « mettez vos lunettes » apparait. Elle atterrit alors dans le centre de la terre, un endroit où les deux mondes se superposent, les joueurs auront une visibilité réduite et devront alors mettre les lunettes afin de voir les ennemis ainsi que ce deuxième monde.',
     'COMMANDES DU CLAVIER':
       '↑ pour monter, \n↓ pour descendre, \ntouche espace pour tirer sur les ennemis',
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/QSr2pZEhuf0',
@@ -343,11 +349,13 @@ const rawGames = [
   {
     BINOME: 'NINAUD_UGOLINI',
     TITRE: 'Pipo & his alter ego',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 794472659,
     'ID FIGMA': 'xqkGIeKJC9TOnQtLsJdBxB',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Pipo est jovial et toujours souriant, et ce, même quand ses traumatismes de guerre refont sur- face et qu’il laisse son alter ego prendre le contrôle.\nLorsque cela arrive, attention à ne pas croiser son chemin: ami.es et collègues deviennent tous des ennemi.es.',
+    'COMMANDES DU CLAVIER':
+      "← Pour viser tout droit\n→ Pour viser vers le haut\n↑ Pour sauter\nBarre d'espace pour tirer",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/y8pHiLZ_fWg',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
     PDF: '',
