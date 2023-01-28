@@ -16,7 +16,7 @@ const getInnerHtml = (game) => `
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
         allowfullscreen>
     </iframe>
-    <a href="./game.html?id=${game.scratchId}" class="link-to-game"><span>Tester le prototype</span></a>
+    <a href="./game.html?id=${game.scratchId}" class="link-to-game"><span>Tester le prototype</span><span>Tester le prototype</span></a>
 </div>
 `
 

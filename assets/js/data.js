@@ -2,165 +2,18 @@ import { splitString, getIdFromYouTubeLink } from './utils.js'
 
 const rawGames = [
   {
-    BINOME: 'ABAKAR_COSIALLS',
-    TITRE: 'SHOOT CA',
-    'ID SCRATCH (NEUF CHIFFRES)': 794256856,
-    'ID FIGMA': 'vdEKzfEWTjPe5DTb3jRj7u',
-    DESCRIPTION:
-      'vous êtes plongéez dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemie des crabes votre but est de tous les dégommer pour reprndre le contrôle de la ville.',
-    'COMMANDES DU CLAVIER':
-      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/bl7eL1EacXM',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: 'Alexia ABAKAR\nRaphaël COSIALLS',
-    PDF: '',
-  },
-  {
-    BINOME: 'BAZIRE_LEFRANC',
-    TITRE: 'FISH & PILLS',
-    'ID SCRATCH (NEUF CHIFFRES)': 792348480,
-    'ID FIGMA': 'xlNXtG9pXd9JdO8gYGmzRa',
-    DESCRIPTION:
-      'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous trouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez beaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin qu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur donnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour gagner un maximum de point et passer au niveau supérieur.',
-    'COMMANDES DU CLAVIER':
-      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/GMBevmdsqco',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://i.postimg.cc/wMp82NXY/loose.jpg\nhttps://i.postimg.cc/XY7Wt9TV/16.jpg\nhttps://i.postimg.cc/g2SppnW3/d-but.jpg\nhttps://i.postimg.cc/FzVtBKpd/GAMEOVER.jpg\nhttps://i.postimg.cc/JnJCjxBQ/menu.jpg\nhttps://i.postimg.cc/DfrKZChv/nextlever.jpg\nhttps://i.postimg.cc/9fsj4KzM/playagain.jpg',
-    NOMS: 'Madeleine BAZIRE\nSuzanne LEFRANC',
-    PDF: 'https://drive.google.com/file/d/1Sr4M8bVXXGh72IW1TRGJfJ2rvfxk7Opz/view?usp=share_link',
-  },
-  {
-    BINOME: 'BEKKA_LALANNE',
-    TITRE: 'Ink',
-    'ID SCRATCH (NEUF CHIFFRES)': 788935190,
-    'ID FIGMA': '1u6DhD2KlZ2KfX3ri73pTw',
-    DESCRIPTION:
-      'Une page blanche. C’est le monde dont vit Ink, le personnage principal. Son objectif ? Encrer tous ceux qui se trouvent sur son passage ! Armé de son stylo, il est déterminé à remplir la feuille de tâche d’encre. Alors aidez-le à accomplir son objectif pour remplir la page ! À vos stylos !\nLe concept du jeu est de toucher les ennemis avec les projectils de notre stylo. Mais il faudra faire attention à ne pas se faire toucher ou à user le réservoir trop rapidement. Plus on touchera d’ennemis, plus le score sera élevé. Si on obtient un score assez élevé, on pourra passer au niveau suivant.',
-    'COMMANDES DU CLAVIER':
-      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/VJcFgpYtULE',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://i.postimg.cc/6q6gBmwc/Jeu-Ink-Sc-ne-1-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/Nj2VGTh3/Jeu-Ink-Sc-ne-2-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KYXW1zxR/Jeu-Ink-Sc-ne-3-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KvHwyfW7/Jeu-Ink-Sc-ne-4-Bekka-et-Lalanne-jeu-de-tir.jpg',
-    NOMS: 'Inès BEKKA\nIsis LALANNE',
-    PDF: '',
-  },
-  {
-    BINOME: 'BENONI_MORLAT',
-    TITRE: 'Pink Justice',
-    'ID SCRATCH (NEUF CHIFFRES)': 794652190,
-    'ID FIGMA': 'ieCPJpabAM862wiHiv68V7',
-    DESCRIPTION:
-      'Dans un monde malheureux où le divorce est monnaie très courante, Cupidon s’énerve fortement. Armé de ses deux pistolets, il tue ces satanés papiers trop facile à signer.\nAlors restaurons un monde d’amour !',
-    'COMMANDES DU CLAVIER':
-      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: 'Dylan BENONI\nSébastien MORLAT',
-    PDF: '',
-  },
-  {
     BINOME: 'BONIN_CALOM',
     TITRE: 'The Night War',
     'ID SCRATCH (NEUF CHIFFRES)': 794494072,
     'ID FIGMA': 'GH6yHvrUmll8nJw2UBklUZ/',
     DESCRIPTION:
-      'L’histoire se déroule pendant nos rêves et plus précisemment dans un cauchemar.',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME: 'Menacé par des monstres (type démons, fantomes etc...).',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME:
-      'Afin de quitter le monde des cauchemars et arriver dans son monde des rêves Morpheus doit combattre ces monstres.',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME:
-      'A l’aide de sa lampe torche qui tire des boules de lumières Morpheus peut tuer ces monstres.',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME:
-      'Lorsque la partie est terminée et gagnée, Morpheus atterit dans un monde lumineux et doux représentant l’univers des rêves.',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME: '1 PERSONNAGE,',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME: 'Les ennemis sont des monstres types : démons, fantomes etc...',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': '',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME:
-      'LOTS: Boule de lumières, ce sont l’argent dans notre jeu. Ce qui nous permettra d’acheter des armes et différents équipements.',
-    TITRE:
-      "→ pour avancer,\n← pour reculer, barre d'espace pour tirer sur les ennemis, toucher a pour faire revenir morpheus à sa position de départ",
-    'ID SCRATCH (NEUF CHIFFRES)': 'https://youtu.be/AchtQFCbpxw',
-    'ID FIGMA': '',
-    DESCRIPTION: 'Marion BONIN\nAgathe CALOM',
+      'L’histoire se déroule pendant nos rêves et plus précisemment dans un cauchemar.\nMenacé par des monstres (type démons, fantomes etc...).\nAfin de quitter le monde des cauchemars et arriver dans son monde des rêves Morpheus doit combattre ces monstres.\nA l’aide de sa lampe torche qui tire des boules de lumières Morpheus peut tuer ces monstres.\nLorsque la partie est terminée et gagnée, Morpheus atterit dans un monde lumineux et doux représentant l’univers des rêves.\n1 PERSONNAGE,\nLes ennemis sont des monstres types : démons, fantomes etc...\nLOTS: Boule de lumières, ce sont l’argent dans notre jeu. Ce qui nous permettra d’acheter des armes et différents équipements.',
     'COMMANDES DU CLAVIER':
-      'https://drive.google.com/drive/folders/1Fe_VFCiVTXFACfsSVnUipTblvwskk3Tr',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+      "→ pour avancer,\n← pour reculer, \nBarre d'espace pour tirer sur les ennemis, \nToucher A pour faire revenir Morpheus à sa position de départ",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/AchtQFCbpxw',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
+    NOMS: 'Marion BONIN\nAgathe CALOM',
+    PDF: 'https://drive.google.com/file/d/1L7sutSSQr9VvhBNWnuu534P_5u_9uuRG/view?usp=share_link',
   },
   {
     BINOME: 'BORDAS_HAMIDI',
@@ -173,7 +26,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Kwq0cf5STaw',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Romain BORDAS\nHoussine HAMIDI',
-    PDF: 'https://drive.google.com/drive/folders/1ZGgLg8O8sUkIsala_DSO8DL8TLVG5-tT',
+    PDF: 'https://drive.google.com/file/d/1JGS7Pu0jgM-de_yasxx_Si8b5TGhEQdS/view?usp=share_link',
   },
   {
     BINOME: 'BRUNET_DONINEAUX',
@@ -187,7 +40,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Charles BRUNET\nThomas DONINEAUX',
-    PDF: 'https://drive.google.com/drive/folders/1iWGOQ1ciElcM5Cs6S2IylT6G_uhvvmB6',
+    PDF: 'https://drive.google.com/file/d/1qZFXZ0ygDqezQiXzDb8jB6A6nyDwuzMo/view?usp=share_link',
   },
   {
     BINOME: 'CHAN_LUU_NEREE',
@@ -198,7 +51,7 @@ const rawGames = [
       'La perle de vie répand le bien être, la paix et la prospérité des habitants de l’océan. Cette perle qui regorge\nd’une énergie surpuissante attise la curiosité de beaucoup de malfaiteurs. Un groupe de méduses sournoises\nréussit à dérober la précieuse perle de vie. Suite à la disparition de la perle les êtres de l’océan tombèrent dans la\npénombre. C’est ainsi qu’arrive Plym gardienne de l’océan qui aura pour but de récuperer la perle de vie.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis (méduses).",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/jWEmT3TTyHk',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/C1qNLQsT/background-Plym-s-quest-final.jpg\nhttps://i.postimg.cc/CLN41Dk1/Ecran-du-jeu.jpg\nhttps://i.postimg.cc/Df1g9Rz1/ecran-game-over.jpg\nhttps://i.postimg.cc/65w0tz7g/ecran-level-completed.jpg\nhttps://i.postimg.cc/cJK7Xbjg/Gameplay-1.jpg\nhttps://i.postimg.cc/fy7fYSP8/Gameplay-2.jpg\nhttps://i.postimg.cc/mggyFDyS/Gameplay-3.jpg\nhttps://i.postimg.cc/Sx17LhZb/screen-title-Plym-s-quest.jpg',
     NOMS: 'Miranda CHAN SIO MOUI\nNancy LUU\nAurélie NÉRÉE',
@@ -216,31 +69,47 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/HXGdL2CqVRI',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Inès CHEBBAH\nMorgane CHRÉTIEN',
-    PDF: 'https://drive.google.com/drive/folders/1JPwArktkrNKa7FAGE7VhuKGA6kRuZD3n',
+    PDF: 'https://drive.google.com/file/d/1ERIzWubQYUH89DwoM9YuGFR8imx4BBOl/view?usp=share_link',
   },
   {
     BINOME: 'CHIKER_LEMOINE',
-    TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    TITRE: 'COSMO GUN',
+    'ID SCRATCH (NEUF CHIFFRES)': 794861515,
     'ID FIGMA': 'i5HE7LTdOGoXIFSKCQG0h4',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    DESCRIPTION:
+      'Après avoir survécu à l’explosion du vaisseau dans lequel se\ntrouvait l’astronaute. Il se réveilla sans peau, sans chair sur lui,\nlui restant ses os et son âme pour survivre. La raison de son\napparence reste un mystère.\nSe retrouvant sur une planète habité par des Rongeurs d’os\n(des aliens), il devra tuer tous les aliens pour rester en vie à\nl’aide de son pistolet laser.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter.\n↓ pour descendre.\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/fqZVG97HCVo',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Dorine CHIKER\nYohann LEMOINE',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1rLzzrJfjpuijSZQ032H2tEgucwTtLM91/view?usp=share_link',
   },
   {
     BINOME: 'COCIELLA_BOUKHATEM',
     TITRE: 'NAKED CHICKEN RUN',
     'ID SCRATCH (NEUF CHIFFRES)': 792343744,
     'ID FIGMA': 'VOg1bJOKjglqy5frCNcTG6',
-    DESCRIPTION: '',
-    'COMMANDES DU CLAVIER':
-      "↑ Pour monter.\n↓ pour descendre.\nBarre d'espace pour tirer sur les ennemis.",
+    DESCRIPTION: 'Concept :',
+    'COMMANDES DU CLAVIER': '',
     'LIEN YOUTUBE FORMAT 4:3': '',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: 'Sarah BOUKHATEM\nBrune COCIELLA',
+    NOMS: '',
+    PDF: '',
+  },
+  {
+    BINOME:
+      'Un poulet cru qui cour pour tirer sur des oeufs pourris et rattraper des oeufs sains pour les utiliser comme munitions. On a chosit comme fond la mer pour créer ce coté peu commun. L’oeuf pourri doit etre tué et l’oeuf sain servira de ravitaillement pour les munitions.',
+    TITRE:
+      "↑ Pour monter.\n↓ pour descendre.\nBarre d'espace pour tirer sur les ennemis.",
+    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID FIGMA': 'https://postimg.cc/gallery/QrCmG1f',
+    DESCRIPTION: 'Sarah BOUKHATEM\nBrune COCIELLA',
+    'COMMANDES DU CLAVIER':
+      'https://drive.google.com/file/d/1VcXWmyuIcW7eba6o0SnA0lwFD5nyvNuG/view?usp=share_link',
+    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    NOMS: '',
     PDF: '',
   },
   {
@@ -279,11 +148,12 @@ const rawGames = [
     'ID FIGMA': 'n5uoMd7SxCQbxb4IACGDe0',
     DESCRIPTION:
       'Anyborg est un jeu vidéo en 2D du genre Shoot’em up où le joueur devra incarner un “aniborg” (chasseur de prime mi-animal mi-cyborg), dont la mission est de renverser un dictateur et son armée de robots. Ce jeu se veut comme un hommage au cinéma de science-fiction ayant marqué le XXème siècle.',
-    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nFlèche de droite : tirer",
+    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nBouton de droite : tirer",
     'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/PJtpHX0G/Anyborg-ecran-lancement.jpg\nhttps://i.postimg.cc/FzD2Wpjt/Anyborg-Play.jpg',
     NOMS: 'Kyoka EGUCHI\nEnzo LAURENT',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1MN3PNtRTDTSpaPxvDszX3QKJQmzVx_4A/view?usp=share_link',
   },
   {
     BINOME: 'FENGAROL_OLIVERO_LE-DU',
@@ -297,7 +167,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/Oe4yUMT4xFo',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Owen FENGAROL\nClément OLIVERO\nJustine LE DÛ',
-    PDF: 'https://drive.google.com/drive/folders/1jg9kTGnscFxDcnhHltP809alpEWiJAbc',
+    PDF: 'https://drive.google.com/file/d/1XnIuqI5T900OIbWrTbsnUN2dF2bdTncH/view?usp=share_link',
   },
   {
     BINOME: 'FOUCHONNERET_HADDAD_MARCIANO',
@@ -308,7 +178,7 @@ const rawGames = [
       'Vous arrivez dans un monde dystopique dans lequel les crypto monnaies deviennent de plus en plus importantes, vous incarnez un résistant riche qui se fait poursuivre par des traders de cryptomonnaies acharnés à l’enrôler.',
     'COMMANDES DU CLAVIER':
       "↑ pour monter, \n↓ pour descendre, \nBarre d'espace pour tirer sur les ennemis",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/BNwu7ldBi-c',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/RZknwd7T/Sratch-1.jpg\nhttps://i.postimg.cc/9fywb91H/Sratchgameover.jpg\nhttps://i.postimg.cc/0jXCvSLH/Frame-2.jpg\nhttps://i.postimg.cc/KYtQTRMR/Frame-3.jpg',
     NOMS: 'Hugo FOUCHONNERET\nRaphael HADDAD\nShani MARCIANO',
@@ -340,7 +210,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/5jlvjIMGZ_E',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Anouck GODINEAU\nGaël LE-GRUMELEC',
-    PDF: 'https://drive.google.com/drive/folders/1NnoJyeajOLwBtw106scbThlrEeEZ8liQ',
+    PDF: 'https://drive.google.com/file/d/1KsQ6HU_YTV06b_dFErjv-eG8QvdpjLM5/view?usp=share_link',
   },
   {
     BINOME: 'GOURLAIN_OUADY',
@@ -412,7 +282,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/e1QUudmnyo4',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Camile LOUIS-THERESE\nMarie PICH-SOEUN',
-    PDF: 'https://drive.google.com/drive/folders/1IENJGukqtqT3cTX5WmqDdNP-laLFVpfx',
+    PDF: 'https://drive.google.com/file/d/1ibP1Z2gZYkEPuOUBZ0RFF484QfIOAdVw/view?usp=share_link',
   },
   {
     BINOME: 'LUBANGI-MUTOKE_ONGOUALA',
@@ -426,7 +296,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/OEUHreI1uqU',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Karamatou LUBANGI-MUTOKE\nYanis ONGOUALA',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1e3vaJjwvyXTIc0yWtsKxsmKDOgIRvFP8/view?usp=share_link',
   },
   {
     BINOME: 'MAZEAU_RICHERT',
@@ -445,17 +315,17 @@ const rawGames = [
   {
     BINOME: 'NINAUD_UGOLINI',
     TITRE: 'Pipo & his alter ego',
-    'ID SCRATCH (NEUF CHIFFRES)': 794472659,
+    'ID SCRATCH (NEUF CHIFFRES)': 794841154,
     'ID FIGMA': 'xqkGIeKJC9TOnQtLsJdBxB',
     DESCRIPTION:
       'Pipo est jovial et toujours souriant, et ce, même quand ses traumatismes de guerre refont sur- face et qu’il laisse son alter ego prendre le contrôle.\nLorsque cela arrive, attention à ne pas croiser son chemin: ami.es et collègues deviennent tous des ennemi.es.',
     'COMMANDES DU CLAVIER':
       "← Pour viser tout droit\n→ Pour viser vers le haut\n↑ Pour sauter\nBarre d'espace pour tirer",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/y8pHiLZ_fWg',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/rCb0lEey8ro',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://postimg.cc/tnCd3hv8https://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg',
+      'https://postimg.cc/tnCd3hv8\nhttps://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
-    PDF: 'https://drive.google.com/drive/folders/1irSOzh4QlRYPBhkY0sZUUGJoKATFBUn5',
+    PDF: 'https://drive.google.com/file/d/1auzXVKLgLEKLjyqx7IuE5LfHFC1Mcn5H/view?usp=share_link',
   },
   {
     BINOME: 'RANJARD_SULTAN',
