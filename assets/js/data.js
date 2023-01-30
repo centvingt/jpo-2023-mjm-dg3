@@ -148,27 +148,15 @@ const rawGames = [
     TITRE: 'NAKED CHICKEN RUN',
     'ID SCRATCH (NEUF CHIFFRES)': 792343744,
     'ID FIGMA': 'VOg1bJOKjglqy5frCNcTG6',
-    DESCRIPTION: 'Concept :',
-    'COMMANDES DU CLAVIER': '',
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
-  },
-  {
-    BINOME:
-      'Un poulet cru qui cour pour tirer sur des oeufs pourris et rattraper des oeufs sains pour les utiliser comme munitions. On a chosit comme fond la mer pour créer ce coté peu commun. L’oeuf pourri doit etre tué et l’oeuf sain servira de ravitaillement pour les munitions.',
-    TITRE:
-      "↑ Pour monter.\n↓ pour descendre.\nBarre d'espace pour tirer sur les ennemis.",
-    'ID SCRATCH (NEUF CHIFFRES)': '',
-    'ID FIGMA': 'https://postimg.cc/gallery/QrCmG1f',
-    DESCRIPTION: 'Sarah BOUKHATEM\nBrune COCIELLA',
+    DESCRIPTION:
+      "Concept : \n\nOn voulait créer un jeu comique et d'utilisation assez simple pour tous ages de joueur. \nLe nom du jeu, Naked Run Chicken, est une représentation parfaite du visuel du jeu. C'est un poulet nu qui court sur l'océan pour éviter des œufs pourris et les tuer sur son passage. \nOn a choisi que le poulet court sur un océan, car c'est peu commun et ça permet d'appuyer le côté amusant du jeu. \nPlus il tue, plus son score augmente. Il a trois vies, s'il les perd alors c'est game over pour le joueur.",
     'COMMANDES DU CLAVIER':
-      'https://drive.google.com/file/d/1VcXWmyuIcW7eba6o0SnA0lwFD5nyvNuG/view?usp=share_link',
+      'Les principales touches sont : \n•Flèche du haut : Pour monter.\n•Flèche du bas : Pour descendre.\n•Flèche de gauche : Pour avancer.\n•Flèche de droite : Pour aller à droite.',
     'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
-    NOMS: '',
-    PDF: '',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://postimg.cc/gallery/QrCmG1f',
+    NOMS: 'Sarah BOUKHATEM\nBrune COCIELLA',
+    PDF: 'https://drive.google.com/file/d/1VcXWmyuIcW7eba6o0SnA0lwFD5nyvNuG/view?usp=share_link',
   },
   {
     BINOME: 'DAVID_MOHAMMAD',
@@ -274,14 +262,15 @@ const rawGames = [
   {
     BINOME: 'GOURLAIN_OUADY',
     TITRE: 'StolenDreams',
-    'ID SCRATCH (NEUF CHIFFRES)': '',
+    'ID SCRATCH (NEUF CHIFFRES)': 795837316,
     'ID FIGMA': 'xCz6iXXcYF1rMMQ1n0qfNN',
     DESCRIPTION:
       'Tobs est un survivant de la guerre des rêves, depuis un siècle, il parcourt la planète Wobis pour retrouver les siens et donc récupérer sa planète qui est actuellement conquise par la communauté des Warbs (les voleurs de rêves). Il devra les affronter tout au long de son aventure, à travers ses combats, il pourra récupérer des rêves perdus et les stocker pour ensuite les redistribuer à sa communauté et reconquérir leur terre.',
     'COMMANDES DU CLAVIER':
-      "Touche entrer pour commencer la game.\n.→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour sauter.\nTouche du A pour attaquer.\nTouche du R pour restart la game.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
-    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+      ".→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour sauter.\nTouche du A pour attaquer.\nCliquer sur le drapeau pour recommencer.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://www.youtube.com/watch?v=9PK4_iOYrL4',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://postimg.cc/pyJzNDFc',
     NOMS: 'Killian GOURLAIN\nGuillaume OUADY',
     PDF: 'https://drive.google.com/file/d/1HiW6wgD-mZySyKQXhFMN8fIf-qE6u1EN/view?usp=share_link',
   },
@@ -297,7 +286,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/2B8PwwsGIf0',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Quentin HURTREL\nMarc-Lewis NACKI',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1YJEZQMm0Zw0Op5qDNnRSx3KuGkQ7mbKq/view?usp=share_link',
   },
   {
     BINOME: 'LANG_VALACH',
@@ -366,11 +355,10 @@ const rawGames = [
       'Contrôle le Drip Master dans ce nouveau shoot em up ! Personnalise ton Drip master, puis balade toi dans les rues en quête de nouvelles pièces à mettre.\nPour ça, il va falloir saper les méchants hypebeast qui traînent dans la rue à la sortie de la nouvelle collection Balenciaga x Supreme',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3':
-      'https://drive.google.com/drive/folders/1hVMvJyHScp3liQ1EfYq5Mb9IWBLFjC2Z',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/w38NF4flFCc',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Tom MAZEAU\nLise RICHERT',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/19lM3fIp_XZpHMfjdbXX52-epWojboIpQ/view?usp=share_link',
   },
   {
     BINOME: 'NINAUD_UGOLINI',
@@ -383,7 +371,7 @@ const rawGames = [
       "← Pour viser tout droit\n→ Pour viser vers le haut\n↑ Pour sauter\nBarre d'espace pour tirer",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/rCb0lEey8ro',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://postimg.cc/tnCd3hv8\nhttps://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg\nhttps://i.postimg.cc/RZn2YVZC/ecran-fins-de-jeu-10.jpg',
+      'https://i.postimg.cc/zGWD1kT2/cover-pipo.png\nhttps://i.postimg.cc/fbfwVT2x/cover-pipo-1.png\nhttps://i.postimg.cc/0QtPCXqj/cover-pipo-2.png\nhttps://i.postimg.cc/pTVPzb43/cover-pipo-3.png',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
     PDF: 'https://drive.google.com/file/d/1auzXVKLgLEKLjyqx7IuE5LfHFC1Mcn5H/view?usp=share_link',
   },
