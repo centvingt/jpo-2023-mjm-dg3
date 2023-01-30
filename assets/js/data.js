@@ -2,14 +2,72 @@ import { splitString, getIdFromYouTubeLink } from './utils.js'
 
 const rawGames = [
   {
+    BINOME: 'ABAKAR_COSIALLS',
+    TITRE: 'SHOOT CA',
+    'ID SCRATCH (NEUF CHIFFRES)': 794256856,
+    'ID FIGMA': 'vdEKzfEWTjPe5DTb3jRj7u',
+    DESCRIPTION:
+      'Le jeu prend place dans les années 70 une ambiance Miami Vice. Vous incarnez un dauphin qui à pour ennemis des crabes. Votre but est donc de tous les tuer afin de prendre le contrôle de la ville.',
+    'COMMANDES DU CLAVIER':
+      "↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,\nbarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/bl7eL1EacXM',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    NOMS: 'Alexia ABAKAR\nRaphaël COSIALLS',
+    PDF: 'https://drive.google.com/drive/folders/1v8givGfLrUIKa2wkJY2T0IxBWQQ9ergH',
+  },
+  {
+    BINOME: 'BAZIRE_LEFRANC',
+    TITRE: 'FISH & PILLS',
+    'ID SCRATCH (NEUF CHIFFRES)': 792348480,
+    'ID FIGMA': 'xlNXtG9pXd9JdO8gYGmzRa',
+    DESCRIPTION:
+      'Vous êtes plongé dans l’univers de Yellow Submarine des Beatles et vous vous trouvez au fond d’un océan coloré. Malheureusement, vous (Molly) croisez beaucoup de poissons tristes. Votre mission est leurs tirer de l’amour dessus afin qu’ils retrouvent leurs beaux sourires. L’objectif est d’éviter de se faire tuer par les poissons malheureux, en leur donnant le « smile » avec les pillules du love. Il faut aller le plus loin possible pour gagner un maximum de point et passer au niveau supérieur.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/GMBevmdsqco',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/wMp82NXY/loose.jpg\nhttps://i.postimg.cc/XY7Wt9TV/16.jpg\nhttps://i.postimg.cc/g2SppnW3/d-but.jpg\nhttps://i.postimg.cc/FzVtBKpd/GAMEOVER.jpg\nhttps://i.postimg.cc/JnJCjxBQ/menu.jpg\nhttps://i.postimg.cc/DfrKZChv/nextlever.jpg\nhttps://i.postimg.cc/9fsj4KzM/playagain.jpg',
+    NOMS: 'Madeleine BAZIRE\nSuzanne LEFRANC',
+    PDF: 'https://drive.google.com/file/d/1Sr4M8bVXXGh72IW1TRGJfJ2rvfxk7Opz/view?usp=share_link',
+  },
+  {
+    BINOME: 'BEKKA_LALANNE',
+    TITRE: 'Ink',
+    'ID SCRATCH (NEUF CHIFFRES)': 788935190,
+    'ID FIGMA': '1u6DhD2KlZ2KfX3ri73pTw',
+    DESCRIPTION:
+      'Une page blanche. C’est le monde dont vit Ink, le personnage principal. Son objectif ? Encrer tous ceux qui se trouvent sur son passage ! Armé de son stylo, il est déterminé à remplir la feuille de tâche d’encre. Alors aidez-le à accomplir son objectif pour remplir la page ! À vos stylos !\nLe concept du jeu est de toucher les ennemis avec les projectils de notre stylo. Mais il faudra faire attention à ne pas se faire toucher ou à user le réservoir trop rapidement. Plus on touchera d’ennemis, plus le score sera élevé. Si on obtient un score assez élevé, on pourra passer au niveau suivant.',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/VJcFgpYtULE',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
+      'https://i.postimg.cc/6q6gBmwc/Jeu-Ink-Sc-ne-1-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/Nj2VGTh3/Jeu-Ink-Sc-ne-2-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KYXW1zxR/Jeu-Ink-Sc-ne-3-Bekka-et-Lalanne-jeu-de-tir.jpg\nhttps://i.postimg.cc/KvHwyfW7/Jeu-Ink-Sc-ne-4-Bekka-et-Lalanne-jeu-de-tir.jpg',
+    NOMS: 'Inès BEKKA\nIsis LALANNE',
+    PDF: 'https://drive.google.com/file/d/11DRwOxe8B1XW9dw8GImJf6sm3UHNNPOR/view?usp=share_link',
+  },
+  {
+    BINOME: 'BENONI_MORLAT',
+    TITRE: 'Pink Justice',
+    'ID SCRATCH (NEUF CHIFFRES)': 794652190,
+    'ID FIGMA': 'ieCPJpabAM862wiHiv68V7',
+    DESCRIPTION:
+      'Dans un monde malheureux où le divorce est monnaie très courante, Cupidon s’énerve fortement. Armé de ses deux pistolets, il tue ces satanés papiers trop facile à signer.\nAlors restaurons un monde d’amour !',
+    'COMMANDES DU CLAVIER':
+      "↑ Pour monter,\n↓ Pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/LQkK_AM01kI',
+    'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
+    NOMS: 'Dylan BENONI\nSébastien MORLAT',
+    PDF: 'https://drive.google.com/file/d/1ANUQL43AF6Ywt6JAe2r_4odADlsNq_WK/view?usp=share_link',
+  },
+  {
     BINOME: 'BONIN_CALOM',
     TITRE: 'The Night War',
     'ID SCRATCH (NEUF CHIFFRES)': 794494072,
     'ID FIGMA': 'GH6yHvrUmll8nJw2UBklUZ/',
     DESCRIPTION:
-      'L’histoire se déroule pendant nos rêves et plus précisemment dans un cauchemar.\nMenacé par des monstres (type démons, fantomes etc...).\nAfin de quitter le monde des cauchemars et arriver dans son monde des rêves Morpheus doit combattre ces monstres.\nA l’aide de sa lampe torche qui tire des boules de lumières Morpheus peut tuer ces monstres.\nLorsque la partie est terminée et gagnée, Morpheus atterit dans un monde lumineux et doux représentant l’univers des rêves.\n1 PERSONNAGE,\nLes ennemis sont des monstres types : démons, fantomes etc...\nLOTS: Boule de lumières, ce sont l’argent dans notre jeu. Ce qui nous permettra d’acheter des armes et différents équipements.',
+      'L’histoire se déroule pendant nos rêves et plus précisemment dans un cauchemar.\nMenacé par des monstres (type démons, fantomes etc...).\nAfin de quitter le monde des cauchemars et arriver dans son monde des rêves Morpheus doit combattre ces monstres.\nA l’aide de sa lampe torche qui tire des boules de lumières Morpheus peut tuer ces monstres.\nLorsque la partie est terminée et gagnée, Morpheus atterit dans un monde lumineux et doux représentant l’univers des rêves.',
     'COMMANDES DU CLAVIER':
-      "→ pour avancer,\n← pour reculer, \nBarre d'espace pour tirer sur les ennemis, \nToucher A pour faire revenir Morpheus à sa position de départ",
+      "→ pour avancer,\n← pour reculer, barre d'espace pour tirer sur les ennemis, toucher a pour faire revenir morpheus à sa position de départ",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/AchtQFCbpxw',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Marion BONIN\nAgathe CALOM',
@@ -37,7 +95,7 @@ const rawGames = [
       'Icard est un monde ressemblant à la Terre, à la différence est que celui-ci, est imprégné de magie. Une région de ce monde est néanmoins toujours inexploré car très dangereux, cette région est constitué d’îles flottantes qui se déplacent au grès du vent et abritent des monstres dangereux. Une ancienne légende raconte qu’un explorateur du nom de Standorf fît la plus grosse découverte de l’ancien monde, le plus grand trésors du monde, « La Perle » . Un jeune homme, Jim Hawkins rêve d’aventure, mais Jim a des responsabilités, Jim a perdu ses parents jeune, le laissant lui et sa soeur, seul. La soeur de Jim est très malade, mais il n’a pas assez d’argent pour lui fournir les soins nécessaire. Il décide donc de partir à l’aventure, à la recherche du plus grand trésor du monde, pour trouver l’argent nécessaire à l’achat des soins destinés sa soeur.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/e7BQOplmZZI',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Charles BRUNET\nThomas DONINEAUX',
     PDF: 'https://drive.google.com/file/d/1qZFXZ0ygDqezQiXzDb8jB6A6nyDwuzMo/view?usp=share_link',
@@ -48,7 +106,7 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 775892033,
     'ID FIGMA': 'xIRHRk0wLGBaA6XFNBnkLV',
     DESCRIPTION:
-      'La perle de vie répand le bien être, la paix et la prospérité des habitants de l’océan. Cette perle qui regorge\nd’une énergie surpuissante attise la curiosité de beaucoup de malfaiteurs. Un groupe de méduses sournoises\nréussit à dérober la précieuse perle de vie. Suite à la disparition de la perle les êtres de l’océan tombèrent dans la\npénombre. C’est ainsi qu’arrive Plym gardienne de l’océan qui aura pour but de récuperer la perle de vie.',
+      'La perle de vie répand le bien être, la paix et la prospérité des habitants de l’océan. Cette perle qui regorge d’une énergie surpuissante attise la curiosité de beaucoup de malfaiteurs. Un groupe de méduses sournoises réussit à dérober la précieuse perle de vie. Suite à la disparition de la perle les êtres de l’océan tombèrent dans la pénombre. C’est ainsi qu’arrive Plym gardienne de l’océan qui aura pour but de récuperer la perle de vie.',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\n→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour tirer sur les ennemis (méduses).",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/jWEmT3TTyHk',
@@ -147,9 +205,10 @@ const rawGames = [
     'ID SCRATCH (NEUF CHIFFRES)': 790995366,
     'ID FIGMA': 'n5uoMd7SxCQbxb4IACGDe0',
     DESCRIPTION:
-      'Anyborg est un jeu vidéo en 2D du genre Shoot’em up où le joueur devra incarner un “aniborg” (chasseur de prime mi-animal mi-cyborg), dont la mission est de renverser un dictateur et son armée de robots. Ce jeu se veut comme un hommage au cinéma de science-fiction ayant marqué le XXème siècle.',
-    'COMMANDES DU CLAVIER': "Barre d'espace : sauter\nBouton de droite : tirer",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+      'Anyborg est un jeu vidéo en 2D du genre Shoot’em up, où le joueur devra incarner un “anyborg” (chasseur de prime mi-animal mi-cyborg), dont la mission est de renverser un dictateur et son armée de robots. Ce jeu se veut comme un hommage au cinéma de science-fiction ayant marqué le XXème siècle.',
+    'COMMANDES DU CLAVIER':
+      "Barre d'espace : sauter\nFlèche directionnelle de droite → : tirer",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/J09R-5FZR-E',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/PJtpHX0G/Anyborg-ecran-lancement.jpg\nhttps://i.postimg.cc/FzD2Wpjt/Anyborg-Play.jpg',
     NOMS: 'Kyoka EGUCHI\nEnzo LAURENT',
@@ -229,13 +288,13 @@ const rawGames = [
   {
     BINOME: 'HURTREL_NACKI',
     TITRE: '',
-    'ID SCRATCH (NEUF CHIFFRES)': 794541083,
+    'ID SCRATCH (NEUF CHIFFRES)': 795615299,
     'ID FIGMA': 'GnYODZXtrOl2kjoe8Vy54M',
     DESCRIPTION:
-      'Bienvenue dans un monde fantasy où vous incarnez le plus ancien esprits guardian. Vous devrez survivre contre de terrifiants monstres qui surgissent la nuit.',
+      'Bienvenue dans un monde fantasy où vous incarnez le plus ancien esprits guardian. Vous devrez survivre contre de terrifiants monstres qui surgissent la nuit. Le but du jeu est de survivre le plus longtemp possible.',
     'COMMANDES DU CLAVIER':
       '↑ pour monter,\n↓ pour descendre,\n→ pour avancer,\n← pour reculer,',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/2B8PwwsGIf0',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Quentin HURTREL\nMarc-Lewis NACKI',
     PDF: '',
@@ -253,7 +312,7 @@ const rawGames = [
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://i.postimg.cc/K8WsWHKz/Sans-titre-3.png \nhttps://i.postimg.cc/VspvYjJV/2.png\nhttps://i.postimg.cc/B6x341kd/4.png\nhttps://i.postimg.cc/wBLZmY2N/Sans-titre-1.png',
     NOMS: 'Léna LANG\nAlexandra VALACH',
-    PDF: 'https://drive.google.com/drive/folders/1hEvUo7nEx-Gy_f1Iyl8CbprYDv5SBQeL',
+    PDF: 'https://drive.google.com/file/d/1AAkzYDsvMMwCb6xQJ9FzK1gWTbuAoUlG/view?usp=share_link',
   },
   {
     BINOME: 'LEMARIE_ROSSIGNOL',
@@ -307,7 +366,8 @@ const rawGames = [
       'Contrôle le Drip Master dans ce nouveau shoot em up ! Personnalise ton Drip master, puis balade toi dans les rues en quête de nouvelles pièces à mettre.\nPour ça, il va falloir saper les méchants hypebeast qui traînent dans la rue à la sortie de la nouvelle collection Balenciaga x Supreme',
     'COMMANDES DU CLAVIER':
       "↑ Pour monter,\n↓ pour descendre,\nBarre d'espace pour tirer sur les ennemis.",
-    'LIEN YOUTUBE FORMAT 4:3': '',
+    'LIEN YOUTUBE FORMAT 4:3':
+      'https://drive.google.com/drive/folders/1hVMvJyHScp3liQ1EfYq5Mb9IWBLFjC2Z',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Tom MAZEAU\nLise RICHERT',
     PDF: '',
@@ -323,7 +383,7 @@ const rawGames = [
       "← Pour viser tout droit\n→ Pour viser vers le haut\n↑ Pour sauter\nBarre d'espace pour tirer",
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/rCb0lEey8ro',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://postimg.cc/tnCd3hv8\nhttps://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg',
+      'https://postimg.cc/tnCd3hv8\nhttps://postimg.cc/R6mLFr7S\nhttps://postimg.cc/tnCd3hv8 \nhttps://i.postimg.cc/ZKjyfQ2b/ecran-fins-de-jeu-101.jpg\nhttps://i.postimg.cc/RZn2YVZC/ecran-fins-de-jeu-10.jpg',
     NOMS: 'Mona NINAUD\nTatiana UGOLINI',
     PDF: 'https://drive.google.com/file/d/1auzXVKLgLEKLjyqx7IuE5LfHFC1Mcn5H/view?usp=share_link',
   },
