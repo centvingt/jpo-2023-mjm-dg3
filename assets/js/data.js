@@ -89,7 +89,7 @@ const rawGames = [
   {
     BINOME: 'BRUNET_DONINEAUX',
     TITRE: 'UTOPIA',
-    'ID SCRATCH (NEUF CHIFFRES)': 793418282,
+    'ID SCRATCH (NEUF CHIFFRES)': 795089907,
     'ID FIGMA': '6GzOGjbeiwoCnI1PAed25o',
     DESCRIPTION:
       'Icard est un monde ressemblant à la Terre, à la différence est que celui-ci, est imprégné de magie. Une région de ce monde est néanmoins toujours inexploré car très dangereux, cette région est constitué d’îles flottantes qui se déplacent au grès du vent et abritent des monstres dangereux. Une ancienne légende raconte qu’un explorateur du nom de Standorf fît la plus grosse découverte de l’ancien monde, le plus grand trésors du monde, « La Perle » . Un jeune homme, Jim Hawkins rêve d’aventure, mais Jim a des responsabilités, Jim a perdu ses parents jeune, le laissant lui et sa soeur, seul. La soeur de Jim est très malade, mais il n’a pas assez d’argent pour lui fournir les soins nécessaire. Il décide donc de partir à l’aventure, à la recherche du plus grand trésor du monde, pour trouver l’argent nécessaire à l’achat des soins destinés sa soeur.',
@@ -151,8 +151,8 @@ const rawGames = [
     DESCRIPTION:
       "Concept : \n\nOn voulait créer un jeu comique et d'utilisation assez simple pour tous ages de joueur. \nLe nom du jeu, Naked Run Chicken, est une représentation parfaite du visuel du jeu. C'est un poulet nu qui court sur l'océan pour éviter des œufs pourris et les tuer sur son passage. \nOn a choisi que le poulet court sur un océan, car c'est peu commun et ça permet d'appuyer le côté amusant du jeu. \nPlus il tue, plus son score augmente. Il a trois vies, s'il les perd alors c'est game over pour le joueur.",
     'COMMANDES DU CLAVIER':
-      'Les principales touches sont : \n•Flèche du haut : Pour monter.\n•Flèche du bas : Pour descendre.\n•Flèche de gauche : Pour avancer.\n•Flèche de droite : Pour aller à droite.',
-    'LIEN YOUTUBE FORMAT 4:3': '',
+      'Les principales touches sont : \nFlèche du haut : Pour monter.\nFlèche du bas : Pour descendre.\nFlèche de gauche : Pour avancer.\nFlèche de droite : Pour aller à droite.',
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/NLRLTZ3YdY4n',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
       'https://postimg.cc/gallery/QrCmG1f',
     NOMS: 'Sarah BOUKHATEM\nBrune COCIELLA',
@@ -267,16 +267,16 @@ const rawGames = [
     DESCRIPTION:
       'Tobs est un survivant de la guerre des rêves, depuis un siècle, il parcourt la planète Wobis pour retrouver les siens et donc récupérer sa planète qui est actuellement conquise par la communauté des Warbs (les voleurs de rêves). Il devra les affronter tout au long de son aventure, à travers ses combats, il pourra récupérer des rêves perdus et les stocker pour ensuite les redistribuer à sa communauté et reconquérir leur terre.',
     'COMMANDES DU CLAVIER':
-      ".→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour sauter.\nTouche du A pour attaquer.\nCliquer sur le drapeau pour recommencer.",
-    'LIEN YOUTUBE FORMAT 4:3': 'https://www.youtube.com/watch?v=9PK4_iOYrL4',
+      "→ Pour avancer,\n← Pour reculer,\nBarre d'espace pour sauter.\nTouche du A pour attaquer.\nCliquer sur le drapeau pour recommencer.",
+    'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/9PK4_iOYrL4',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3':
-      'https://postimg.cc/pyJzNDFc',
+      'https://i.postimg.cc/ZY1cdHKm/loading.png\nhttps://i.postimg.cc/pVnQRjQ6/start.png\nhttps://i.postimg.cc/YqvCJN1v/03.png\nhttps://i.postimg.cc/XvbNGTt5/04.png\nhttps://i.postimg.cc/bJYzL1yN/05.png\nhttps://i.postimg.cc/y8W8CmcJ/death.png',
     NOMS: 'Killian GOURLAIN\nGuillaume OUADY',
     PDF: 'https://drive.google.com/file/d/1HiW6wgD-mZySyKQXhFMN8fIf-qE6u1EN/view?usp=share_link',
   },
   {
     BINOME: 'HURTREL_NACKI',
-    TITRE: '',
+    TITRE: '???',
     'ID SCRATCH (NEUF CHIFFRES)': 795615299,
     'ID FIGMA': 'GnYODZXtrOl2kjoe8Vy54M',
     DESCRIPTION:
@@ -387,7 +387,7 @@ const rawGames = [
     'LIEN YOUTUBE FORMAT 4:3': 'https://youtu.be/cQhNromYVIQ',
     'LIENS SECONDAIRES FACULTATIFS YOUTUBE ET POSTIMAGE FORMAT 4:3': '',
     NOMS: 'Bastien RANJARD\nTobias SULTAN',
-    PDF: '',
+    PDF: 'https://drive.google.com/file/d/1dJTF3zBgP_-_k_rE2z-MqskfBJuby3zZ/view?usp=share_link',
   },
 ]
 
